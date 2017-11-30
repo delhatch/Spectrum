@@ -1,0 +1,1460 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Report</title>
+  <style type="text/css">
+body { font-family:arial ;}
+a { text-decoration:underline ; color:#003000 ;}
+a:hover { text-decoration:underline ; color:0030f0 ;}
+td { padding : 5px ;}
+table.topTitle { width:100% ;}
+table.topTitle td.l { text-align:left ; font-weight: bold ; font-size:30px ;}
+table.topTitle td.r { text-align:right ; font-weight: bold ; font-size:16px ;}
+table.blueBar { width : 100% ; border-spacing : 0px ;}
+table.blueBar td { background:#0036ff ; font-size:12px ; color : white ; text-align : left ; font-weight : bold ;}
+table.blueBar td.l { text-align : left ;}
+table.blueBar td.r { text-align : right ;}
+table.items { width:100% ; border-collapse:collapse ;}
+table.items td.label { font-weight:bold ; font-size:16px ; vertical-align:top ;}
+table.items td.mono { font-family:courier ; font-size:12px ; white-space:pre ;}
+div.label { font-weight:bold ; font-size:16px ; vertical-align:top ; text-align:center ;}
+table.grid { border-collapse:collapse ;}
+table.grid td { border:1px solid #bbb ; font-size:12px ;}
+body { font-family:arial ;}
+table.x { font-family:courier ; border-collapse:collapse ; padding:2px ;}
+table.x td { border:1px solid #bbb ;}
+td.tableTitle { font-weight:bold ; text-align:center ;}
+table.grid { border-collapse:collapse ;}
+table.grid td { border:1px solid #bbb ;}
+table.grid td.tableTitle { font-weight:bold ; text-align:center ;}
+table.mmap { border-collapse:collapse ; text-size:11px ; border:1px solid #d8d8d8 ;}
+table.mmap td { border-color:#d8d8d8 ; border-width:1px ; border-style:solid ;}
+table.mmap td.empty { border-style:none ; background-color:#f0f0f0 ;}
+table.mmap td.slavemodule { text-align:left ; font-size:11px ; border-style:solid solid none solid ;}
+table.mmap td.slavem { text-align:right ; font-size:9px ; font-style:italic ; border-style:none solid none solid ;}
+table.mmap td.slaveb { text-align:right ; font-size:9px ; font-style:italic ; border-style:none solid solid solid ;}
+table.mmap td.mastermodule { text-align:center ; font-size:11px ; border-style:solid solid none solid ;}
+table.mmap td.masterlr { text-align:center ; font-size:9px ; font-style:italic ; border-style:none solid solid solid ;}
+table.mmap td.masterl { text-align:center ; font-size:9px ; font-style:italic ; border-style:none none solid solid ;}
+table.mmap td.masterm { text-align:center ; font-size:9px ; font-style:italic ; border-style:none none solid none ;}
+table.mmap td.masterr { text-align:center ; font-size:9px ; font-style:italic ; border-style:none solid solid none ;}
+table.mmap td.addr { font-family:courier ; font-size:9px ; text-align:right ;}
+table.connectionboxes { border-collapse:separate ; border-spacing:0px ; font-family:arial ;}
+table.connectionboxes td.from { border-bottom:1px solid black ; font-size:9px ; font-style:italic ; vertical-align:bottom ; text-align:left ;}
+table.connectionboxes td.to { font-size:9px ; font-style:italic ; vertical-align:top ; text-align:right ;}
+table.connectionboxes td.lefthandwire { border-bottom:1px solid black ; font-size:9px ; font-style:italic ; vertical-align:bottom ; text-align:right ;}
+table.connectionboxes td.righthandwire { border-bottom:1px solid black ; font-size:9px ; font-style:italic ; vertical-align:bottom ; text-align:left ;}
+table.connectionboxes td.righthandlabel { font-size:11px ; vertical-align:bottom ; text-align:left ;}
+table.connectionboxes td.neighbor { padding:3px ; border:1px solid black ; font-size: 11px ; background:#e8e8e8 ; vertical-align:center ; text-align:center ;}
+table.connectionboxes td.main { padding:8px ; border:1px solid black ; font-size: 14px ; font-weight:bold ; background:#ffffff ; vertical-align:center ; text-align:center ;}
+.parametersbox { border:1px solid #d0d0d0 ; display:inline-block ; max-height:160px ; overflow:auto ; width:360px ; font-size:10px ;}
+.flowbox { display:inline-block ;}
+.parametersbox table { font-size:10px ;}
+td.parametername { font-style:italic ;}
+td.parametervalue { font-weight:bold ;}
+div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; border-top:1px solid #707070 ; border-bottom:1px solid #707070 ; padding:20px ; margin:20px ; width:auto ;}</style>
+ </head>
+ <body>
+  <table class="topTitle">
+   <tr>
+    <td class="l">DE2_115_SOPC</td>
+    <td class="r">DE2_115_SOPC
+     <br/>1.0
+     <br/>
+    </td>
+   </tr>
+  </table>
+  <table class="blueBar">
+   <tr>
+    <td class="l">2012.11.30.15:06:04</td>
+    <td class="r">Generation Report</td>
+   </tr>
+  </table>
+  <table class="items">
+   <tr>
+    <td class="label">Output Directory</td>
+    <td class="mono">D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/</td>
+   </tr>
+   <tr>
+    <td class="label">Files</td>
+    <td class="mono">D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/DE2_115_SOPC.v (766409 bytes VERILOG)
+     <br/>
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_timer.v (6954 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_sdram.v (23906 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_sdram_test_component.v (9449 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_key.v (4399 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_sma_in.v (1951 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_sma_out.v (2281 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_sw.v (8623 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_ledg.v (2252 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_ledr.v (2255 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_lcd.v (2291 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/TERASIC_SRAM.v (1658 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/SEG7_IF.v (3786 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_jtag_uart.v (24243 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_jtag_uart_input_mutex.dat (3 bytes OTHER)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_jtag_uart_input_stream.dat (10 bytes OTHER)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_jtag_uart_output_stream.dat (0 bytes OTHER)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_pll.v (11687 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_timer_stamp.v (7028 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/VGA_NIOS_CTRL.v (7387 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/VGA_OSD_RAM.v (1703 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/VGA_Controller.v (6394 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/Img_RAM.v (9939 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_mm_clock_crossing_bridge.v (10052 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_dc_fifo.v (23570 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_dcfifo_synchronizer_bundle.v (1458 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu.ocp (856 bytes OTHER)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu.sdc (3979 bytes SDC)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu.v (446272 bytes VERILOG_ENCRYPT)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_bht_ram.mif (2392 bytes MIF)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_dc_tag_ram.mif (920 bytes MIF)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_ic_tag_ram.mif (1881 bytes MIF)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_jtag_debug_module_sysclk.v (7125 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_jtag_debug_module_tck.v (8459 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_jtag_debug_module_wrapper.v (10379 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_mult_cell.v (6299 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_ociram_default_contents.mif (5714 bytes MIF)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_oci_test_bench.v (1496 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_rf_ram_a.mif (600 bytes MIF)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_rf_ram_b.mif (600 bytes MIF)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cpu_test_bench.v (31723 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_sysid.v (1451 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/CY7C67200_IF.v (2109 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_master_translator.sv (16802 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_slave_translator.sv (16043 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_slave_agent.sv (19132 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_burst_uncompressor.sv (10373 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_sc_fifo.v (32228 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_master_agent.sv (8686 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_addr_router.sv (6749 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_addr_router_001.sv (8742 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_id_router.sv (6055 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_id_router_002.sv (6067 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_id_router_003.sv (5985 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_addr_router_002.sv (8396 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_id_router_010.sv (5979 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_traffic_limiter.sv (12802 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_st_pipeline_base.v (4716 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_burst_adapter.sv (37064 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_reset_controller.v (3595 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_reset_synchronizer.v (3564 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_reset_controller.sdc (1179 bytes SDC)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cmd_xbar_demux.sv (4766 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cmd_xbar_demux_001.sv (9235 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_arbitrator.sv (9460 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cmd_xbar_mux.sv (11852 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_rsp_xbar_demux.sv (4121 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_rsp_xbar_demux_003.sv (3495 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_rsp_xbar_mux.sv (12056 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_rsp_xbar_mux_001.sv (17715 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_cmd_xbar_demux_002.sv (8573 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_rsp_xbar_demux_010.sv (3490 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_rsp_xbar_mux_002.sv (16893 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_width_adapter.sv (35859 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v (7493 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_st_clock_crosser.v (4900 bytes VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/DE2_115_SOPC_irq_mapper.sv (2169 bytes SYSTEM_VERILOG)
+     <br/>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_irq_clock_crosser.sv (1651 bytes SYSTEM_VERILOG)
+     <br/>
+    </td>
+   </tr>
+   <tr>
+    <td class="label">Instantiations</td>
+    <td class="mono">
+     <table class="grid">
+      <tr>
+       <td><b>DE2_115_SOPC</b>
+        <br/>DE2_115_SOPC v1.0</td>
+       <td><b>DE2_115_SOPC_timer</b> as timer
+        <br/><b>DE2_115_SOPC_sdram</b> as sdram
+        <br/><b>DE2_115_SOPC_key</b> as key
+        <br/><b>DE2_115_SOPC_sma_in</b> as sma_in
+        <br/><b>DE2_115_SOPC_sma_out</b> as sma_out
+        <br/><b>DE2_115_SOPC_sw</b> as sw
+        <br/><b>DE2_115_SOPC_ledg</b> as ledg
+        <br/><b>DE2_115_SOPC_ledr</b> as ledr
+        <br/><b>DE2_115_SOPC_lcd</b> as lcd
+        <br/><b>TERASIC_SRAM</b> as sram
+        <br/><b>SEG7_IF</b> as seg7
+        <br/><b>DE2_115_SOPC_jtag_uart</b> as jtag_uart
+        <br/><b>DE2_115_SOPC_pll</b> as pll
+        <br/><b>DE2_115_SOPC_timer_stamp</b> as timer_stamp
+        <br/><b>VGA_NIOS_CTRL</b> as vpg
+        <br/><b>altera_avalon_mm_clock_crossing_bridge</b> as clock_crossing_io
+        <br/><b>DE2_115_SOPC_cpu</b> as cpu
+        <br/><b>DE2_115_SOPC_sysid</b> as sysid
+        <br/><b>CY7C67200_IF</b> as CY7C67200_IF_0
+        <br/><b>altera_merlin_master_translator</b> as cpu_instruction_master_translator, cpu_data_master_translator, clock_crossing_io_m0_translator
+        <br/><b>altera_merlin_slave_translator</b> as cpu_jtag_debug_module_translator, sdram_s1_translator, sram_avalon_slave_translator, sma_in_s1_translator, sma_out_s1_translator, jtag_uart_avalon_jtag_slave_translator, pll_pll_slave_translator, timer_stamp_s1_translator, timer_s1_translator, clock_crossing_io_s0_translator, sysid_control_slave_translator, key_s1_translator, sw_s1_translator, ledg_s1_translator, ledr_s1_translator, lcd_control_slave_translator, seg7_avalon_slave_translator, vpg_s1_translator, CY7C67200_IF_0_hpi_translator
+        <br/><b>altera_merlin_slave_agent</b> as sma_out_s1_translator_avalon_universal_slave_0_agent, pll_pll_slave_translator_avalon_universal_slave_0_agent, jtag_uart_avalon_jtag_slave_translator_avalon_universal_slave_0_agent, cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent, sdram_s1_translator_avalon_universal_slave_0_agent, timer_s1_translator_avalon_universal_slave_0_agent, sma_in_s1_translator_avalon_universal_slave_0_agent, sram_avalon_slave_translator_avalon_universal_slave_0_agent, timer_stamp_s1_translator_avalon_universal_slave_0_agent, clock_crossing_io_s0_translator_avalon_universal_slave_0_agent, CY7C67200_IF_0_hpi_translator_avalon_universal_slave_0_agent, ledr_s1_translator_avalon_universal_slave_0_agent, vpg_s1_translator_avalon_universal_slave_0_agent, sw_s1_translator_avalon_universal_slave_0_agent, seg7_avalon_slave_translator_avalon_universal_slave_0_agent, ledg_s1_translator_avalon_universal_slave_0_agent, key_s1_translator_avalon_universal_slave_0_agent, lcd_control_slave_translator_avalon_universal_slave_0_agent, sysid_control_slave_translator_avalon_universal_slave_0_agent
+        <br/><b>altera_avalon_sc_fifo</b> as sma_out_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, pll_pll_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, pll_pll_slave_translator_avalon_universal_slave_0_agent_rdata_fifo, jtag_uart_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo, sdram_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, timer_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, timer_s1_translator_avalon_universal_slave_0_agent_rdata_fifo, sma_in_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, sram_avalon_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, timer_stamp_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, clock_crossing_io_s0_translator_avalon_universal_slave_0_agent_rsp_fifo, CY7C67200_IF_0_hpi_translator_avalon_universal_slave_0_agent_rsp_fifo, ledr_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, vpg_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, vpg_s1_translator_avalon_universal_slave_0_agent_rdata_fifo, sw_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, seg7_avalon_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, ledg_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, key_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, lcd_control_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, sysid_control_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+        <br/><b>altera_merlin_master_agent</b> as cpu_instruction_master_translator_avalon_universal_master_0_agent, cpu_data_master_translator_avalon_universal_master_0_agent, clock_crossing_io_m0_translator_avalon_universal_master_0_agent
+        <br/><b>DE2_115_SOPC_addr_router</b> as addr_router
+        <br/><b>DE2_115_SOPC_addr_router_001</b> as addr_router_001
+        <br/><b>DE2_115_SOPC_id_router</b> as id_router, id_router_001
+        <br/><b>DE2_115_SOPC_id_router_002</b> as id_router_002
+        <br/><b>DE2_115_SOPC_id_router_003</b> as id_router_003, id_router_004, id_router_005, id_router_006, id_router_007, id_router_008, id_router_009
+        <br/><b>DE2_115_SOPC_addr_router_002</b> as addr_router_002
+        <br/><b>DE2_115_SOPC_id_router_010</b> as id_router_010, id_router_011, id_router_012, id_router_013, id_router_014, id_router_015, id_router_016, id_router_017, id_router_018
+        <br/><b>altera_merlin_traffic_limiter</b> as limiter, limiter_001, limiter_002
+        <br/><b>altera_merlin_burst_adapter</b> as burst_adapter
+        <br/><b>altera_reset_controller</b> as rst_controller, rst_controller_001, rst_controller_002
+        <br/><b>DE2_115_SOPC_cmd_xbar_demux</b> as cmd_xbar_demux
+        <br/><b>DE2_115_SOPC_cmd_xbar_demux_001</b> as cmd_xbar_demux_001
+        <br/><b>DE2_115_SOPC_cmd_xbar_mux</b> as cmd_xbar_mux, cmd_xbar_mux_001, cmd_xbar_mux_002
+        <br/><b>DE2_115_SOPC_rsp_xbar_demux</b> as rsp_xbar_demux, rsp_xbar_demux_001, rsp_xbar_demux_002
+        <br/><b>DE2_115_SOPC_rsp_xbar_demux_003</b> as rsp_xbar_demux_003, rsp_xbar_demux_004, rsp_xbar_demux_005, rsp_xbar_demux_006, rsp_xbar_demux_007, rsp_xbar_demux_008, rsp_xbar_demux_009
+        <br/><b>DE2_115_SOPC_rsp_xbar_mux</b> as rsp_xbar_mux
+        <br/><b>DE2_115_SOPC_rsp_xbar_mux_001</b> as rsp_xbar_mux_001
+        <br/><b>DE2_115_SOPC_cmd_xbar_demux_002</b> as cmd_xbar_demux_002
+        <br/><b>DE2_115_SOPC_rsp_xbar_demux_010</b> as rsp_xbar_demux_010, rsp_xbar_demux_011, rsp_xbar_demux_012, rsp_xbar_demux_013, rsp_xbar_demux_014, rsp_xbar_demux_015, rsp_xbar_demux_016, rsp_xbar_demux_017, rsp_xbar_demux_018
+        <br/><b>DE2_115_SOPC_rsp_xbar_mux_002</b> as rsp_xbar_mux_002
+        <br/><b>altera_merlin_width_adapter</b> as width_adapter, width_adapter_001
+        <br/><b>altera_avalon_st_handshake_clock_crosser</b> as crosser, crosser_001, crosser_002, crosser_003, crosser_004, crosser_005
+        <br/><b>DE2_115_SOPC_irq_mapper</b> as irq_mapper
+        <br/><b>altera_irq_clock_crosser</b> as irq_synchronizer, irq_synchronizer_001, irq_synchronizer_002, irq_synchronizer_003
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_timer</b>
+        <br/>altera_avalon_timer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_sdram</b>
+        <br/>altera_avalon_new_sdram_controller v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_key</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_sma_in</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_sma_out</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_sw</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_ledg</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_ledr</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_lcd</b>
+        <br/>altera_avalon_lcd_16207 v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>TERASIC_SRAM</b>
+        <br/>TERASIC_SRAM v1.0</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>SEG7_IF</b>
+        <br/>SEG7_IF v1.0</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_jtag_uart</b>
+        <br/>altera_avalon_jtag_uart v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_pll</b>
+        <br/>altpll v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_timer_stamp</b>
+        <br/>altera_avalon_timer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>VGA_NIOS_CTRL</b>
+        <br/>VGA_NIOS_CTRL v1.0</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_avalon_mm_clock_crossing_bridge</b>
+        <br/>altera_avalon_mm_clock_crossing_bridge v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_cpu</b>
+        <br/>altera_nios2_qsys v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_sysid</b>
+        <br/>altera_avalon_sysid_qsys v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>CY7C67200_IF</b>
+        <br/>CY7C67200_IF v1.0</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_master_translator</b>
+        <br/>altera_merlin_master_translator v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_slave_translator</b>
+        <br/>altera_merlin_slave_translator v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_slave_agent</b>
+        <br/>altera_merlin_slave_agent v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_avalon_sc_fifo</b>
+        <br/>altera_avalon_sc_fifo v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_master_agent</b>
+        <br/>altera_merlin_master_agent v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_addr_router</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_addr_router_001</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_id_router</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_id_router_002</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_id_router_003</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_addr_router_002</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_id_router_010</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_traffic_limiter</b>
+        <br/>altera_merlin_traffic_limiter v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_burst_adapter</b>
+        <br/>altera_merlin_burst_adapter v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_reset_controller</b>
+        <br/>altera_reset_controller v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_cmd_xbar_demux</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_cmd_xbar_demux_001</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_cmd_xbar_mux</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_rsp_xbar_demux</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_rsp_xbar_demux_003</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_rsp_xbar_mux</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_rsp_xbar_mux_001</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_cmd_xbar_demux_002</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_rsp_xbar_demux_010</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_rsp_xbar_mux_002</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_width_adapter</b>
+        <br/>altera_merlin_width_adapter v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_avalon_st_handshake_clock_crosser</b>
+        <br/>altera_avalon_st_handshake_clock_crosser v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>DE2_115_SOPC_irq_mapper</b>
+        <br/>altera_irq_mapper v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_irq_clock_crosser</b>
+        <br/>altera_irq_clock_crosser v11.1</td>
+       <td></td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+  <div style="width:100% ;  height:10px"> </div>
+  <div class="label">Generation Messages</div>
+  <div style="white-space:pre ; font-family:courier">2012.11.30.14:56:32 [Info] DE2_115_SOPC.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+2012.11.30.14:56:32 [Info] DE2_115_SOPC.sma_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+2012.11.30.14:56:32 [Info] DE2_115_SOPC.sw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.sram: Timing: QME:1/7.953s
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.seg7: Timing: QME:1/8.500s
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.pll: Timing: VAL:1/0.031s ELA:1/0.000s
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.vpg: Timing: QME:1/8.188s
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.clock_crossing_io: Timing: ELA:1/0.000s
+2012.11.30.14:51:29 [Debug] DE2_115_SOPC.altera_nios2_qsys: When a generate simulation callback is defined a synthesis generation callback should also be defined
+2012.11.30.14:56:32 [Info] DE2_115_SOPC.cpu: CPUID control register value is 0. Please manually assign CPUID if creating multiple Nios II system
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.cpu: Timing: VAL:1/0.047s ELA:1/0.015s
+2012.11.30.14:56:32 [Info] DE2_115_SOPC.sysid: System ID will no longer be automatically assigned.
+2012.11.30.14:56:32 [Info] DE2_115_SOPC.sysid: Time stamp will be automatically updated when this component is generated.
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.sysid: Timing: VAL:2/0.000s/0.000s
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.c0: Timing: ELA:1/0.000s
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.c2: Timing: ELA:1/0.000s
+2012.11.30.14:51:37 [Warning] DE2_115_SOPC.CY7C67200_IF: TOP_LEVEL_MODULE automatically set to <b>CY7C67200_IF</b>
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC.CY7C67200_IF_0: Timing: QME:1/7.922s
+2012.11.30.14:56:32 [Info] DE2_115_SOPC: Generating <b>DE2_115_SOPC</b> "<b>DE2_115_SOPC</b>" for QUARTUS_SYNTH
+2012.11.30.14:56:32 [Debug] DE2_115_SOPC: queue size: 0 starting:DE2_115_SOPC "DE2_115_SOPC"
+2012.11.30.14:56:32 [Debug] Transform: PipelineBridgeSwap
+2012.11.30.14:56:32 [Info] pipeline_bridge_swap_transform: After transform: <b>22</b> modules, <b>90</b> connections
+2012.11.30.14:56:32 [Debug] Transform: ClockCrossingBridgeSwap
+2012.11.30.14:56:32 [Debug] Transform: QsysBetaIPSwap
+2012.11.30.14:56:32 [Debug] Transform: CustomInstructionTransform
+2012.11.30.14:56:32 [Info] No custom instruction connections, skipping transform 
+2012.11.30.14:56:32 [Debug] Transform: TristateConduitUpgradeTransform
+2012.11.30.14:56:33 [Debug] Transform: TranslatorTransform
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Info] merlin_translator_transform: After transform: <b>44</b> modules, <b>178</b> connections
+2012.11.30.14:56:33 [Debug] Transform: DomainTransform
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces cpu.instruction_master and cpu_instruction_master_translator.avalon_anti_master_0
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces cpu.data_master and cpu_data_master_translator.avalon_anti_master_0
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces cpu_jtag_debug_module_translator.avalon_anti_slave_0 and cpu.jtag_debug_module
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces sdram_s1_translator.avalon_anti_slave_0 and sdram.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces sram_avalon_slave_translator.avalon_anti_slave_0 and sram.avalon_slave
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces sma_in_s1_translator.avalon_anti_slave_0 and sma_in.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces sma_out_s1_translator.avalon_anti_slave_0 and sma_out.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces jtag_uart_avalon_jtag_slave_translator.avalon_anti_slave_0 and jtag_uart.avalon_jtag_slave
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces pll_pll_slave_translator.avalon_anti_slave_0 and pll.pll_slave
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces timer_stamp_s1_translator.avalon_anti_slave_0 and timer_stamp.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces timer_s1_translator.avalon_anti_slave_0 and timer.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces clock_crossing_io_s0_translator.avalon_anti_slave_0 and clock_crossing_io.s0
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces clock_crossing_io.m0 and clock_crossing_io_m0_translator.avalon_anti_master_0
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Progress] min: 0
+2012.11.30.14:56:33 [Progress] max: 1
+2012.11.30.14:56:33 [Progress] current: 1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces sysid_control_slave_translator.avalon_anti_slave_0 and sysid.control_slave
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces key_s1_translator.avalon_anti_slave_0 and key.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces sw_s1_translator.avalon_anti_slave_0 and sw.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces ledg_s1_translator.avalon_anti_slave_0 and ledg.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces ledr_s1_translator.avalon_anti_slave_0 and ledr.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces lcd_control_slave_translator.avalon_anti_slave_0 and lcd.control_slave
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces seg7_avalon_slave_translator.avalon_anti_slave_0 and seg7.avalon_slave
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces vpg_s1_translator.avalon_anti_slave_0 and vpg.s1
+2012.11.30.14:56:33 [Debug] Transform merlin_domain_transform not run on matched interfaces CY7C67200_IF_0_hpi_translator.avalon_anti_slave_0 and CY7C67200_IF_0.hpi
+2012.11.30.14:56:33 [Info] merlin_domain_transform: After transform: <b>90</b> modules, <b>480</b> connections
+2012.11.30.14:56:33 [Debug] Transform: RouterTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_router_transform: After transform: <b>112</b> modules, <b>568</b> connections
+2012.11.30.14:56:34 [Debug] Transform: TrafficLimiterTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_traffic_limiter_transform: After transform: <b>115</b> modules, <b>583</b> connections
+2012.11.30.14:56:34 [Debug] Transform: BurstTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_burst_transform: After transform: <b>116</b> modules, <b>587</b> connections
+2012.11.30.14:56:34 [Debug] Transform: ResetAdaptation
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] reset_adaptation_transform: After transform: <b>119</b> modules, <b>462</b> connections
+2012.11.30.14:56:34 [Debug] Transform: NetworkToSwitchTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_network_to_switch_transform: After transform: <b>161</b> modules, <b>550</b> connections
+2012.11.30.14:56:34 [Debug] Transform: WidthTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_width_transform: After transform: <b>163</b> modules, <b>556</b> connections
+2012.11.30.14:56:34 [Debug] Transform: RouterTableTransform
+2012.11.30.14:56:34 [Debug] Transform: ClockCrossingTransform
+2012.11.30.14:56:34 [Info] Inserting clock-crossing logic between cmd_xbar_demux_001.src6 and cmd_xbar_mux_006.sink0
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] Inserting clock-crossing logic between cmd_xbar_demux_001.src8 and cmd_xbar_mux_008.sink0
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] Inserting clock-crossing logic between rsp_xbar_demux_006.src0 and rsp_xbar_mux_001.sink6
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] Inserting clock-crossing logic between rsp_xbar_demux_008.src0 and rsp_xbar_mux_001.sink8
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] Inserting clock-crossing logic between cmd_xbar_demux_002.src7 and cmd_xbar_mux_017.sink0
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] Inserting clock-crossing logic between rsp_xbar_demux_017.src0 and rsp_xbar_mux_002.sink7
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: <b>169</b> modules, <b>586</b> connections
+2012.11.30.14:56:34 [Debug] Transform: TrafficLimiterUpdateTransform
+2012.11.30.14:56:34 [Info] limiter_update_transform: After transform: <b>169</b> modules, <b>589</b> connections
+2012.11.30.14:56:34 [Debug] Transform: InterruptMapperTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_interrupt_mapper_transform: After transform: <b>170</b> modules, <b>592</b> connections
+2012.11.30.14:56:34 [Debug] Transform: InterruptSyncTransform
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Progress] min: 0
+2012.11.30.14:56:34 [Progress] max: 1
+2012.11.30.14:56:34 [Progress] current: 1
+2012.11.30.14:56:34 [Info] merlin_interrupt_sync_transform: After transform: <b>174</b> modules, <b>612</b> connections
+2012.11.30.14:56:34 [Debug] Transform: InterruptFanoutTransform
+2012.11.30.14:56:36 [Warning] system: "No matching role found for jtag_uart:avalon_jtag_slave:dataavailable (dataavailable)"
+2012.11.30.14:56:36 [Warning] system: "No matching role found for jtag_uart:avalon_jtag_slave:readyfordata (readyfordata)"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_timer</b> "<b>submodules/DE2_115_SOPC_timer</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_new_sdram_controller</b> "<b>submodules/DE2_115_SOPC_sdram</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/DE2_115_SOPC_key</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/DE2_115_SOPC_sma_in</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/DE2_115_SOPC_sma_out</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/DE2_115_SOPC_sw</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/DE2_115_SOPC_ledg</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/DE2_115_SOPC_ledr</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_lcd_16207</b> "<b>submodules/DE2_115_SOPC_lcd</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>TERASIC_SRAM</b> "<b>submodules/TERASIC_SRAM</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>SEG7_IF</b> "<b>submodules/SEG7_IF</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_jtag_uart</b> "<b>submodules/DE2_115_SOPC_jtag_uart</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altpll</b> "<b>submodules/DE2_115_SOPC_pll</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_timer</b> "<b>submodules/DE2_115_SOPC_timer_stamp</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>VGA_NIOS_CTRL</b> "<b>submodules/VGA_NIOS_CTRL</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_mm_clock_crossing_bridge</b> "<b>submodules/altera_avalon_mm_clock_crossing_bridge</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_nios2_qsys</b> "<b>submodules/DE2_115_SOPC_cpu</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sysid_qsys</b> "<b>submodules/DE2_115_SOPC_sysid</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>CY7C67200_IF</b> "<b>submodules/CY7C67200_IF</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_addr_router</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_addr_router_001</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_002</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_addr_router_002</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_router</b> "<b>submodules/DE2_115_SOPC_id_router_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_burst_adapter</b> "<b>submodules/altera_merlin_burst_adapter</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_reset_controller</b> "<b>submodules/altera_reset_controller</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_reset_controller</b> "<b>submodules/altera_reset_controller</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_reset_controller</b> "<b>submodules/altera_reset_controller</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_cmd_xbar_demux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_cmd_xbar_demux_001</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/DE2_115_SOPC_cmd_xbar_mux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/DE2_115_SOPC_cmd_xbar_mux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/DE2_115_SOPC_cmd_xbar_mux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_003</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_mux</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_mux_001</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_cmd_xbar_demux_002</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_demux_010</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/DE2_115_SOPC_rsp_xbar_mux_002</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_width_adapter</b> "<b>submodules/altera_merlin_width_adapter</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_merlin_width_adapter</b> "<b>submodules/altera_merlin_width_adapter</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_st_handshake_clock_crosser</b> "<b>submodules/altera_avalon_st_handshake_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_st_handshake_clock_crosser</b> "<b>submodules/altera_avalon_st_handshake_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_st_handshake_clock_crosser</b> "<b>submodules/altera_avalon_st_handshake_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_st_handshake_clock_crosser</b> "<b>submodules/altera_avalon_st_handshake_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_st_handshake_clock_crosser</b> "<b>submodules/altera_avalon_st_handshake_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_avalon_st_handshake_clock_crosser</b> "<b>submodules/altera_avalon_st_handshake_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_irq_mapper</b> "<b>submodules/DE2_115_SOPC_irq_mapper</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_irq_clock_crosser</b> "<b>submodules/altera_irq_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_irq_clock_crosser</b> "<b>submodules/altera_irq_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_irq_clock_crosser</b> "<b>submodules/altera_irq_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: "<b>DE2_115_SOPC</b>" reuses <b>altera_irq_clock_crosser</b> "<b>submodules/altera_irq_clock_crosser</b>"
+2012.11.30.14:56:36 [Debug] DE2_115_SOPC: queue size: 154 starting:altera_avalon_timer "submodules/DE2_115_SOPC_timer"
+2012.11.30.14:56:36 [Info] Starting classic module elaboration.
+2012.11.30.14:56:44 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0011_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0011_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:56:47 [Info] Finished elaborating classic module.
+2012.11.30.14:56:47 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0011_sopclgen/yysystem.ptf
+2012.11.30.14:56:47 [Info] Running sopc_builder...
+2012.11.30.14:56:55 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0011_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0011_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:56:58 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.14:56:58 [Progress] .
+2012.11.30.14:57:00 [Progress] # 2012.11.30 14:57:00 (*) Success: sopc_builder finished.
+2012.11.30.14:57:00 [Info] timer: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_timer</b> "<b>timer</b>"
+2012.11.30.14:57:00 [Debug] DE2_115_SOPC: queue size: 153 starting:altera_avalon_new_sdram_controller "submodules/DE2_115_SOPC_sdram"
+2012.11.30.14:57:00 [Info] Starting classic module elaboration.
+2012.11.30.14:57:14 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0012_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0012_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:57:22 [Info] Finished elaborating classic module.
+2012.11.30.14:57:22 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0012_sopclgen/yysystem.ptf
+2012.11.30.14:57:22 [Info] Running sopc_builder...
+2012.11.30.14:57:39 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0012_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0012_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:57:46 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.14:57:46 [Progress] .
+2012.11.30.14:57:48 [Progress] .
+2012.11.30.14:57:48 [Progress] # 2012.11.30 14:57:48 (*) Running Test Generator Program for DE2_115_SOPC_sdram
+2012.11.30.14:57:53 [Progress] # 2012.11.30 14:57:53 (*) Success: sopc_builder finished.
+2012.11.30.14:57:53 [Info] sdram: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_new_sdram_controller</b> "<b>sdram</b>"
+2012.11.30.14:57:53 [Debug] DE2_115_SOPC: queue size: 152 starting:altera_avalon_pio "submodules/DE2_115_SOPC_key"
+2012.11.30.14:57:53 [Info] Starting classic module elaboration.
+2012.11.30.14:58:16 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0013_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0013_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:58:23 [Info] Finished elaborating classic module.
+2012.11.30.14:58:23 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0013_sopclgen/yysystem.ptf
+2012.11.30.14:58:23 [Info] Running sopc_builder...
+2012.11.30.14:58:40 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0013_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0013_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:58:45 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.14:58:45 [Progress] .
+2012.11.30.14:58:46 [Progress] # 2012.11.30 14:58:46 (*) Success: sopc_builder finished.
+2012.11.30.14:58:47 [Info] key: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_pio</b> "<b>key</b>"
+2012.11.30.14:58:47 [Debug] DE2_115_SOPC: queue size: 151 starting:altera_avalon_pio "submodules/DE2_115_SOPC_sma_in"
+2012.11.30.14:58:47 [Info] Starting classic module elaboration.
+2012.11.30.14:58:59 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0014_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0014_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:59:02 [Info] Finished elaborating classic module.
+2012.11.30.14:59:02 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0014_sopclgen/yysystem.ptf
+2012.11.30.14:59:03 [Info] Running sopc_builder...
+2012.11.30.14:59:14 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0014_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0014_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:59:18 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.14:59:18 [Progress] .
+2012.11.30.14:59:19 [Progress] # 2012.11.30 14:59:19 (*) Success: sopc_builder finished.
+2012.11.30.14:59:20 [Info] sma_in: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_pio</b> "<b>sma_in</b>"
+2012.11.30.14:59:20 [Debug] DE2_115_SOPC: queue size: 150 starting:altera_avalon_pio "submodules/DE2_115_SOPC_sma_out"
+2012.11.30.14:59:20 [Info] Starting classic module elaboration.
+2012.11.30.14:59:30 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0015_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0015_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:59:34 [Info] Finished elaborating classic module.
+2012.11.30.14:59:34 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0015_sopclgen/yysystem.ptf
+2012.11.30.14:59:34 [Info] Running sopc_builder...
+2012.11.30.14:59:44 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0015_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0015_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.14:59:48 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.14:59:48 [Progress] .
+2012.11.30.14:59:49 [Progress] # 2012.11.30 14:59:49 (*) Success: sopc_builder finished.
+2012.11.30.14:59:50 [Info] sma_out: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_pio</b> "<b>sma_out</b>"
+2012.11.30.14:59:50 [Debug] DE2_115_SOPC: queue size: 149 starting:altera_avalon_pio "submodules/DE2_115_SOPC_sw"
+2012.11.30.14:59:50 [Info] Starting classic module elaboration.
+2012.11.30.14:59:58 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0016_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0016_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:00:02 [Info] Finished elaborating classic module.
+2012.11.30.15:00:02 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0016_sopclgen/yysystem.ptf
+2012.11.30.15:00:02 [Info] Running sopc_builder...
+2012.11.30.15:00:12 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0016_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0016_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:00:14 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.15:00:14 [Progress] .
+2012.11.30.15:00:16 [Progress] # 2012.11.30 15:00:16 (*) Success: sopc_builder finished.
+2012.11.30.15:00:17 [Info] sw: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_pio</b> "<b>sw</b>"
+2012.11.30.15:00:17 [Debug] DE2_115_SOPC: queue size: 148 starting:altera_avalon_pio "submodules/DE2_115_SOPC_ledg"
+2012.11.30.15:00:17 [Info] Starting classic module elaboration.
+2012.11.30.15:00:31 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0017_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0017_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:00:36 [Info] Finished elaborating classic module.
+2012.11.30.15:00:36 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0017_sopclgen/yysystem.ptf
+2012.11.30.15:00:36 [Info] Running sopc_builder...
+2012.11.30.15:00:49 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0017_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0017_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:00:53 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.15:00:53 [Progress] .
+2012.11.30.15:00:54 [Progress] # 2012.11.30 15:00:54 (*) Success: sopc_builder finished.
+2012.11.30.15:00:54 [Info] ledg: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_pio</b> "<b>ledg</b>"
+2012.11.30.15:00:54 [Debug] DE2_115_SOPC: queue size: 147 starting:altera_avalon_pio "submodules/DE2_115_SOPC_ledr"
+2012.11.30.15:00:54 [Info] Starting classic module elaboration.
+2012.11.30.15:01:04 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0018_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0018_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:01:07 [Info] Finished elaborating classic module.
+2012.11.30.15:01:07 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0018_sopclgen/yysystem.ptf
+2012.11.30.15:01:08 [Info] Running sopc_builder...
+2012.11.30.15:01:18 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0018_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0018_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:01:21 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.15:01:21 [Progress] .
+2012.11.30.15:01:23 [Progress] # 2012.11.30 15:01:23 (*) Success: sopc_builder finished.
+2012.11.30.15:01:23 [Info] ledr: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_pio</b> "<b>ledr</b>"
+2012.11.30.15:01:23 [Debug] DE2_115_SOPC: queue size: 146 starting:altera_avalon_lcd_16207 "submodules/DE2_115_SOPC_lcd"
+2012.11.30.15:01:23 [Info] Starting classic module elaboration.
+2012.11.30.15:01:35 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0019_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0019_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:01:38 [Info] Finished elaborating classic module.
+2012.11.30.15:01:38 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0019_sopclgen/yysystem.ptf
+2012.11.30.15:01:38 [Info] Running sopc_builder...
+2012.11.30.15:01:47 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0019_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0019_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:01:51 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.15:01:51 [Progress] .
+2012.11.30.15:01:52 [Progress] # 2012.11.30 15:01:52 (*) Success: sopc_builder finished.
+2012.11.30.15:01:53 [Info] lcd: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_lcd_16207</b> "<b>lcd</b>"
+2012.11.30.15:01:53 [Debug] DE2_115_SOPC: queue size: 145 starting:TERASIC_SRAM "submodules/TERASIC_SRAM"
+2012.11.30.14:51:04 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.14:51:04 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_SRAM/TERASIC_SRAM.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_SRAM/TERASIC_SRAM.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0006_sopcqmap/
+2012.11.30.14:51:12 [Debug] Command took 7.937s
+2012.11.30.15:01:53 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.15:01:53 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:\SVN\DE2_115_CYPRESS\DEV\peli\DE2_115_NIOS_HOST_MOUSE_VGA\ip\TERASIC_SRAM\TERASIC_SRAM.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_SRAM/TERASIC_SRAM.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0020_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=TERASIC_SRAM "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=DATA_BITS=D\"16\";ADDR_BITS=D\"20\";"
+2012.11.30.15:03:38 [Debug] Command took 105.015s
+2012.11.30.15:03:38 [Info] sram: "<b>DE2_115_SOPC</b>" instantiated <b>TERASIC_SRAM</b> "<b>sram</b>"
+2012.11.30.15:03:38 [Debug] DE2_115_SOPC: queue size: 144 starting:SEG7_IF "submodules/SEG7_IF"
+2012.11.30.14:51:12 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.14:51:12 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_SEG7/SEG7_IF.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_SEG7/SEG7_IF.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0007_sopcqmap/
+2012.11.30.14:51:21 [Debug] Command took 8.500s
+2012.11.30.15:03:38 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.15:03:38 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:\SVN\DE2_115_CYPRESS\DEV\peli\DE2_115_NIOS_HOST_MOUSE_VGA\ip\TERASIC_SEG7\SEG7_IF.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_SEG7/SEG7_IF.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0021_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=SEG7_IF "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=SEG7_NUM=D\"8\";ADDR_WIDTH=D\"3\";DEFAULT_ACTIVE=D\"1\";LOW_ACTIVE=D\"1\";"
+2012.11.30.15:03:47 [Debug] Command took 8.735s
+2012.11.30.15:03:47 [Info] seg7: "<b>DE2_115_SOPC</b>" instantiated <b>SEG7_IF</b> "<b>seg7</b>"
+2012.11.30.15:03:47 [Debug] DE2_115_SOPC: queue size: 143 starting:altera_avalon_jtag_uart "submodules/DE2_115_SOPC_jtag_uart"
+2012.11.30.15:03:47 [Info] Starting classic module elaboration.
+2012.11.30.15:04:01 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0022_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0022_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:04:13 [Info] Finished elaborating classic module.
+2012.11.30.15:04:13 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0022_sopclgen/yysystem.ptf
+2012.11.30.15:04:13 [Info] Running sopc_builder...
+2012.11.30.15:04:23 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0022_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0022_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:04:27 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.15:04:27 [Progress] .
+2012.11.30.15:04:29 [Progress] # 2012.11.30 15:04:29 (*) Success: sopc_builder finished.
+2012.11.30.15:04:29 [Info] jtag_uart: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_jtag_uart</b> "<b>jtag_uart</b>"
+2012.11.30.15:04:29 [Debug] DE2_115_SOPC: queue size: 142 starting:altpll "submodules/DE2_115_SOPC_pll"
+2012.11.30.15:04:34 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.15:04:34 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0023_sopcgen/DE2_115_SOPC_pll.v --source=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0023_sopcgen/DE2_115_SOPC_pll.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0024_sopcqmap/
+2012.11.30.15:04:43 [Debug] Command took 8.453s
+2012.11.30.15:04:43 [Info] pll: "<b>DE2_115_SOPC</b>" instantiated <b>altpll</b> "<b>pll</b>"
+2012.11.30.15:04:43 [Debug] DE2_115_SOPC: queue size: 141 starting:altera_avalon_timer "submodules/DE2_115_SOPC_timer_stamp"
+2012.11.30.15:04:43 [Info] Starting classic module elaboration.
+2012.11.30.15:04:54 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0025_sopclgen  --no_splash --refresh C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0025_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:04:57 [Info] Finished elaborating classic module.
+2012.11.30.15:04:57 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0025_sopclgen/yysystem.ptf
+2012.11.30.15:04:57 [Info] Running sopc_builder...
+2012.11.30.15:05:06 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0025_sopclgen  --generate C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0025_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2012.11.30.15:05:09 [Progress] No .sopc_builder configuration file(!)
+2012.11.30.15:05:09 [Progress] .
+2012.11.30.15:05:11 [Progress] # 2012.11.30 15:05:11 (*) Success: sopc_builder finished.
+2012.11.30.15:05:12 [Info] timer_stamp: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_timer</b> "<b>timer_stamp</b>"
+2012.11.30.15:05:12 [Debug] DE2_115_SOPC: queue size: 140 starting:VGA_NIOS_CTRL "submodules/VGA_NIOS_CTRL"
+2012.11.30.14:51:21 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.14:51:21 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_Binary_VGA_Controller/hdl/VGA_NIOS_CTRL.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_Binary_VGA_Controller/hdl/VGA_OSD_RAM.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_Binary_VGA_Controller/hdl/VGA_Controller.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_Binary_VGA_Controller/hdl/Img_RAM.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_Binary_VGA_Controller/hdl/VGA_NIOS_CTRL.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0008_sopcqmap/
+2012.11.30.14:51:29 [Debug] Command took 8.188s
+2012.11.30.15:05:12 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.15:05:12 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_sh.exe -t C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0026_sopcqmap/not_a_project_setup.tcl
+2012.11.30.15:05:12 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:\SVN\DE2_115_CYPRESS\DEV\peli\DE2_115_NIOS_HOST_MOUSE_VGA\ip\TERASIC_Binary_VGA_Controller\hdl\VGA_NIOS_CTRL.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0026_sopcqmap/ --set=HDL_INTERFACE_INSTANCE_NAME=inst --set=HDL_INTERFACE_INSTANCE_ENTITY=VGA_NIOS_CTRL "--set=HDL_INTERFACE_INSTANCE_PARAMETERS=RAM_SIZE=D\"307200\";"
+2012.11.30.15:05:26 [Debug] Command took 13.562s
+2012.11.30.15:05:34 [Debug] Command took 8.047s
+2012.11.30.15:05:34 [Info] vpg: "<b>DE2_115_SOPC</b>" instantiated <b>VGA_NIOS_CTRL</b> "<b>vpg</b>"
+2012.11.30.15:05:34 [Debug] DE2_115_SOPC: queue size: 139 starting:altera_avalon_mm_clock_crossing_bridge "submodules/altera_avalon_mm_clock_crossing_bridge"
+2012.11.30.15:05:34 [Info] clock_crossing_io: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_mm_clock_crossing_bridge</b> "<b>clock_crossing_io</b>"
+2012.11.30.15:05:34 [Debug] DE2_115_SOPC: queue size: 138 starting:altera_nios2_qsys "submodules/DE2_115_SOPC_cpu"
+2012.11.30.15:05:34 [Info] cpu: Starting RTL generation for module 'DE2_115_SOPC_cpu'
+2012.11.30.15:05:34 [Info] cpu:   Generation command is [exec C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/11.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/11.1/quartus/sopc_builder/bin/europa -I C:/altera/11.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/11.1/quartus/sopc_builder/bin -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=DE2_115_SOPC_cpu --dir=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0027_cpu_gen/ --quartus_dir=C:/altera/11.1/quartus --verilog --config=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0027_cpu_gen//DE2_115_SOPC_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:36 (*) Starting Nios II generation
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:36 (*)   Checking for encrypted license (non-evaluation).
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:48 (*)   Encrypted license found.  SOF will not be time-limited.
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:48 (*)   Elaborating CPU configuration settings
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:48 (*)   Creating all objects for CPU
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:48 (*)     Testbench
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:49 (*)     Instruction decoding
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:49 (*)       Instruction fields
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:49 (*)       Instruction decodes
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:50 (*)       Signals for RTL simulation waveforms
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:50 (*)       Instruction controls
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:50 (*)     Pipeline frontend
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:50 (*)     Pipeline backend
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:54 (*)   Generating RTL from CPU objects
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:57 (*)   Creating encrypted RTL
+2012.11.30.15:05:59 [Info] cpu: # 2012.11.30 15:05:59 (*) Done Nios II generation
+2012.11.30.15:05:59 [Info] cpu: Done RTL generation for module 'DE2_115_SOPC_cpu'
+2012.11.30.15:05:59 [Info] cpu: "<b>DE2_115_SOPC</b>" instantiated <b>altera_nios2_qsys</b> "<b>cpu</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 137 starting:altera_avalon_sysid_qsys "submodules/DE2_115_SOPC_sysid"
+2012.11.30.15:06:00 [Info] sysid: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_sysid_qsys</b> "<b>sysid</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 136 starting:CY7C67200_IF "submodules/CY7C67200_IF"
+2012.11.30.14:51:29 [Debug] set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files
+2012.11.30.14:51:29 [Debug] Command: C:/altera/11.1/quartus/bin/quartus_map.exe not_a_project --generate_hdl_interface=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_CY7C67200/CY7C67200_IF.v --source=D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/ip/TERASIC_CY7C67200/CY7C67200_IF.v --set=HDL_INTERFACE_OUTPUT_PATH=C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/alt5674_2567867796461813855.dir/0009_sopcqmap/
+2012.11.30.14:51:37 [Debug] Command took 7.922s
+2012.11.30.15:06:00 [Info] CY7C67200_IF_0: "<b>DE2_115_SOPC</b>" instantiated <b>CY7C67200_IF</b> "<b>CY7C67200_IF_0</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 135 starting:altera_merlin_master_translator "submodules/altera_merlin_master_translator"
+2012.11.30.15:06:00 [Info] cpu_instruction_master_translator: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_master_translator</b> "<b>cpu_instruction_master_translator</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 133 starting:altera_merlin_slave_translator "submodules/altera_merlin_slave_translator"
+2012.11.30.15:06:00 [Info] cpu_jtag_debug_module_translator: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_slave_translator</b> "<b>cpu_jtag_debug_module_translator</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 113 starting:altera_merlin_slave_agent "submodules/altera_merlin_slave_agent"
+2012.11.30.15:06:00 [Info] sma_out_s1_translator_avalon_universal_slave_0_agent: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_slave_agent</b> "<b>sma_out_s1_translator_avalon_universal_slave_0_agent</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 112 starting:altera_avalon_sc_fifo "submodules/altera_avalon_sc_fifo"
+2012.11.30.15:06:00 [Info] sma_out_s1_translator_avalon_universal_slave_0_agent_rsp_fifo: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_sc_fifo</b> "<b>sma_out_s1_translator_avalon_universal_slave_0_agent_rsp_fifo</b>"
+2012.11.30.15:06:00 [Debug] DE2_115_SOPC: queue size: 95 starting:altera_merlin_master_agent "submodules/altera_merlin_master_agent"
+2012.11.30.15:06:00 [Info] cpu_instruction_master_translator_avalon_universal_master_0_agent: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_master_agent</b> "<b>cpu_instruction_master_translator_avalon_universal_master_0_agent</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 69 starting:altera_merlin_router "submodules/DE2_115_SOPC_addr_router"
+2012.11.30.15:06:01 [Info] addr_router: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 68 starting:altera_merlin_router "submodules/DE2_115_SOPC_addr_router_001"
+2012.11.30.15:06:01 [Info] addr_router_001: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router_001</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 67 starting:altera_merlin_router "submodules/DE2_115_SOPC_id_router"
+2012.11.30.15:06:01 [Info] id_router: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>id_router</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 65 starting:altera_merlin_router "submodules/DE2_115_SOPC_id_router_002"
+2012.11.30.15:06:01 [Info] id_router_002: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_002</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 64 starting:altera_merlin_router "submodules/DE2_115_SOPC_id_router_003"
+2012.11.30.15:06:01 [Info] id_router_003: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_003</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 57 starting:altera_merlin_router "submodules/DE2_115_SOPC_addr_router_002"
+2012.11.30.15:06:01 [Info] addr_router_002: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router_002</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 56 starting:altera_merlin_router "submodules/DE2_115_SOPC_id_router_010"
+2012.11.30.15:06:01 [Info] id_router_010: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_010</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 47 starting:altera_merlin_traffic_limiter "submodules/altera_merlin_traffic_limiter"
+2012.11.30.15:06:01 [Info] limiter: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_traffic_limiter</b> "<b>limiter</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 44 starting:altera_merlin_burst_adapter "submodules/altera_merlin_burst_adapter"
+2012.11.30.15:06:01 [Info] burst_adapter: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_burst_adapter</b> "<b>burst_adapter</b>"
+2012.11.30.15:06:01 [Debug] DE2_115_SOPC: queue size: 43 starting:altera_reset_controller "submodules/altera_reset_controller"
+2012.11.30.15:06:02 [Info] rst_controller: "<b>DE2_115_SOPC</b>" instantiated <b>altera_reset_controller</b> "<b>rst_controller</b>"
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 40 starting:altera_merlin_demultiplexer "submodules/DE2_115_SOPC_cmd_xbar_demux"
+2012.11.30.15:06:02 [Info] cmd_xbar_demux: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux</b>"
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 39 starting:altera_merlin_demultiplexer "submodules/DE2_115_SOPC_cmd_xbar_demux_001"
+2012.11.30.15:06:02 [Info] cmd_xbar_demux_001: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_001</b>"
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 38 starting:altera_merlin_multiplexer "submodules/DE2_115_SOPC_cmd_xbar_mux"
+2012.11.30.15:06:02 [Info] cmd_xbar_mux: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>cmd_xbar_mux</b>"
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 35 starting:altera_merlin_demultiplexer "submodules/DE2_115_SOPC_rsp_xbar_demux"
+2012.11.30.15:06:02 [Info] rsp_xbar_demux: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>rsp_xbar_demux</b>"
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 32 starting:altera_merlin_demultiplexer "submodules/DE2_115_SOPC_rsp_xbar_demux_003"
+2012.11.30.15:06:02 [Info] rsp_xbar_demux_003: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>rsp_xbar_demux_003</b>"
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 25 starting:altera_merlin_multiplexer "submodules/DE2_115_SOPC_rsp_xbar_mux"
+2012.11.30.15:06:02 [Info] rsp_xbar_mux: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux</b>"
+2012.11.30.15:06:02 [Info] Reusing file <b>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 24 starting:altera_merlin_multiplexer "submodules/DE2_115_SOPC_rsp_xbar_mux_001"
+2012.11.30.15:06:02 [Info] rsp_xbar_mux_001: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux_001</b>"
+2012.11.30.15:06:02 [Info] Reusing file <b>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2012.11.30.15:06:02 [Debug] DE2_115_SOPC: queue size: 23 starting:altera_merlin_demultiplexer "submodules/DE2_115_SOPC_cmd_xbar_demux_002"
+2012.11.30.15:06:03 [Info] cmd_xbar_demux_002: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_002</b>"
+2012.11.30.15:06:03 [Debug] DE2_115_SOPC: queue size: 22 starting:altera_merlin_demultiplexer "submodules/DE2_115_SOPC_rsp_xbar_demux_010"
+2012.11.30.15:06:03 [Info] rsp_xbar_demux_010: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>rsp_xbar_demux_010</b>"
+2012.11.30.15:06:03 [Debug] DE2_115_SOPC: queue size: 13 starting:altera_merlin_multiplexer "submodules/DE2_115_SOPC_rsp_xbar_mux_002"
+2012.11.30.15:06:03 [Info] rsp_xbar_mux_002: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux_002</b>"
+2012.11.30.15:06:03 [Info] Reusing file <b>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2012.11.30.15:06:03 [Debug] DE2_115_SOPC: queue size: 12 starting:altera_merlin_width_adapter "submodules/altera_merlin_width_adapter"
+2012.11.30.15:06:03 [Info] width_adapter: "<b>DE2_115_SOPC</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>width_adapter</b>"
+2012.11.30.15:06:03 [Info] Reusing file <b>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>
+2012.11.30.15:06:03 [Debug] DE2_115_SOPC: queue size: 10 starting:altera_avalon_st_handshake_clock_crosser "submodules/altera_avalon_st_handshake_clock_crosser"
+2012.11.30.15:06:03 [Info] crosser: "<b>DE2_115_SOPC</b>" instantiated <b>altera_avalon_st_handshake_clock_crosser</b> "<b>crosser</b>"
+2012.11.30.15:06:03 [Info] Reusing file <b>D:/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_SOPC/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>
+2012.11.30.15:06:03 [Debug] DE2_115_SOPC: queue size: 4 starting:altera_irq_mapper "submodules/DE2_115_SOPC_irq_mapper"
+2012.11.30.15:06:03 [Info] irq_mapper: "<b>DE2_115_SOPC</b>" instantiated <b>altera_irq_mapper</b> "<b>irq_mapper</b>"
+2012.11.30.15:06:03 [Debug] DE2_115_SOPC: queue size: 3 starting:altera_irq_clock_crosser "submodules/altera_irq_clock_crosser"
+2012.11.30.15:06:03 [Info] irq_synchronizer: "<b>DE2_115_SOPC</b>" instantiated <b>altera_irq_clock_crosser</b> "<b>irq_synchronizer</b>"
+2012.11.30.15:06:03 [Info] DE2_115_SOPC: Done <b>DE2_115_SOPC</b>" with 49 modules, 222 files, 3765451 bytes
+</div>
+  <div style="width:100% ; background:#eee ; height:10px"> </div>
+ </body>
+</html>

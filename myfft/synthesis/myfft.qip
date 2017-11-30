@@ -1,0 +1,109 @@
+set_global_assignment -entity "myfft" -library "myfft" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_TOOL_VERSION "17.1"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "myfft" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../myfft.sopcinfo"]
+set_global_assignment -entity "myfft" -library "myfft" -name SLD_INFO "QSYS_NAME myfft HAS_SOPCINFO 1 GENERATION_ID 1512070407"
+set_global_assignment -library "myfft" -name MISC_FILE [file join $::quartus(qip_path) "../myfft.cmp"]
+set_global_assignment -library "myfft" -name SLD_FILE [file join $::quartus(qip_path) "myfft.debuginfo"]
+set_global_assignment -entity "myfft" -library "myfft" -name IP_TARGETED_DEVICE_FAMILY "Cyclone IV E"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "myfft" -name MISC_FILE [file join $::quartus(qip_path) "../../myfft.qsys"]
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_NAME "bXlmZnQ="
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_DISPLAY_NAME "bXlmZnQ="
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTUxMjA3MDQwNw==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UxMTVGMjlDNw==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "myfft" -library "myfft" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_instance_assignment -entity myfft_fft_ii_0 -library myfft -name MESSAGE_DISABLE 270007
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_NAME "bXlmZnRfZmZ0X2lpXzA="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_DISPLAY_NAME "RkZU"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_VERSION "MTcuMQ=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_DESCRIPTION "QWx0ZXJhIEZhc3QgRm91cmllciBUcmFuc2Zvcm0gSUk="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "ZGVzaWduX2Vudg==::TkFUSVZF::ZGVzaWduX2Vudg=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "bGVuZ3Ro::NTEy::TGVuZ3Ro"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "ZGF0YV9mbG93::VmFyaWFibGUgU3RyZWFtaW5n::RGF0YSBGbG93"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "ZGlyZWN0aW9u::QmktZGlyZWN0aW9uYWw=::RGlyZWN0aW9u"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "ZGF0YV9yZXA=::Rml4ZWQgUG9pbnQ=::UmVwcmVzZW50YXRpb24="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "aW5fd2lkdGg=::MTY=::RGF0YSBJbnB1dCBXaWR0aA=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "aW5fd2lkdGhfZGVyaXZlZA==::MTY=::RGF0YSBJbnB1dCBXaWR0aA=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "b3V0X3dpZHRo::MTY=::RGF0YSBPdXRwdXQgV2lkdGg="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "b3V0X3dpZHRoX2Rlcml2ZWQ=::MTY=::RGF0YSBPdXRwdXQgV2lkdGg="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "dHdpZF93aWR0aA==::MTY=::VHdpZGRsZSBXaWR0aA=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "dHdpZF93aWR0aF9kZXJpdmVk::MTY=::VHdpZGRsZSBXaWR0aA=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "aW5fb3JkZXI=::TmF0dXJhbA==::SW5wdXQgT3JkZXI="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "b3V0X29yZGVy::TmF0dXJhbA==::T3V0cHV0IE9yZGVy"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "ZW5naW5lX2FyY2g=::UXVhZCBPdXRwdXQ=::QXJjaGl0ZWN0dXJl"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "bnVtX2VuZ2luZXM=::MQ==::TnVtYmVyIG9mIFBhcmFsbGVsIEVuZ2luZXM="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "bnVtX2VuZ2luZXNfZGVyaXZlZA==::MQ==::bnVtX2VuZ2luZXNfZGVyaXZlZA=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "ZHNwX3Jlc291cmNlX29wdA==::ZmFsc2U=::RFNQIEJsb2NrIFJlc291cmNlIE9wdGltaXphdGlvbg=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "aGFyZF9mcA==::ZmFsc2U=::RW5hYmxlIEhhcmQgRmxvYXRpbmcgUG9pbnQgQmxvY2tz"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "aHlwZXJfb3B0::ZmFsc2U=::SHlwZXIgT3B0aW1pemF0aW9u"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "Q0FMQ19MQVRFTkNZ::NTEy::Q2FsY3VsYXRpb24gTGF0ZW5jeQ=="
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "VEhST1VHSFBVVF9MQVRFTkNZ::MTAyNA==::VGhyb3VnaHB1dCBMYXRlbmN5"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_COMPONENT_PARAMETER "c2VsZWN0ZWRfZGV2aWNlX2ZhbWlseQ==::Q3ljbG9uZSBJViBF::c2VsZWN0ZWRfZGV2aWNlX2ZhbWlseQ=="
+
+set_global_assignment -library "myfft" -name VERILOG_FILE [file join $::quartus(qip_path) "myfft.v"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twr2.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twi3.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twi4.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twr3.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twi1.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twr4.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twi2.hex"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0_opt_twr1.hex"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_text_pkg.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_math_pkg.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_lib_pkg.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_avalon_streaming_block_sink.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_avalon_streaming_block_source.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_roundsat.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/apn_fft_mult_can.vhd"]
+set_global_assignment -library "myfft" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/apn_fft_mult_cpx_1825.v"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/apn_fft_mult_cpx.vhd"]
+set_global_assignment -library "myfft" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_top.ocp"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/hyper_opt_OFF_pkg.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/altera_fft_dual_port_ram.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/altera_fft_dual_port_rom.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/altera_fft_mult_add.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/altera_fft_single_port_rom.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_fft_pkg.vhd"]
+set_global_assignment -library "myfft" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/hyper_pipeline_interface.v"]
+set_global_assignment -library "myfft" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/counter_module.sv"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_lib_pkg.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_bit_reverse_addr_control.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_bit_reverse_core.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_bit_reverse_reverse_carry_adder.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_adder_fp.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_addsub.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_bfi.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_bfii.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_bf_control.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_cma.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_cma_adder_fp.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_cma_bfi_fp.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_cma_fp.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_core.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_counter.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_delay.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_enable_control.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_stage.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_stg_out_pipe.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_stg_pipe.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_top.vhd"]
+set_global_assignment -library "myfft" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/auk_dspip_r22sdf_twrom.vhd"]
+set_global_assignment -library "myfft" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/myfft_fft_ii_0.sv"]
+
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_TOOL_NAME "altera_fft_ii"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_TOOL_VERSION "17.1"
+set_global_assignment -entity "myfft_fft_ii_0" -library "myfft" -name IP_TOOL_ENV "Qsys"

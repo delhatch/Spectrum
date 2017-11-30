@@ -1,0 +1,1204 @@
+!SESSION 2012-10-19 10:34:22.718 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-10-19 10:36:20.953
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA_bsp' (83 sources, 63 headers) in 2.45 sec: 1,075 declarations; 2,929 references; 123 unresolved inclusions; 5 syntax errors; 212 unresolved names (5.03%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-10-19 10:36:35.468
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-29 18:16:32.671
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-29 18:16:59.546
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-29 18:17:08.593
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:01:50.937
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:02:00.921
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.671
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.687
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.703
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.718
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.718
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.734
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.750
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.750
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.765
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.781
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.781
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.796
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:09:24.812
+!MESSAGE 
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:11:34.812
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:11:40.531
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:11:50.578
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:13:05.609
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:13:15.281
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.843
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.859
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.859
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.875
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.890
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.890
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.906
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.921
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.921
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.937
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.953
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.953
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.968
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.984
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:48.984
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.000
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.015
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.015
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.031
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.046
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.046
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.062
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.078
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.078
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.093
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.109
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:14:49.109
+!MESSAGE 
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:15:39.421
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:15:49.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:16:52.796
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:17:02.312
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:18:05.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:18:15.656
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:19:27.796
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:19:34.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:19:44.531
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:21:24.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:21:34.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:28:27.828
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:28:37.531
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:29:39.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:29:49.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:30:43.718
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:30:49.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:30:58.953
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:32:13.218
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:32:22.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:32:38.046
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:33:40.765
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:33:46.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:33:56.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:35:26.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY unknown 8 1 2012-11-30 10:40:27.984
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:40:28.000
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:40:28.000
+!MESSAGE 
+!SESSION 2012-11-30 10:52:16.703 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.epp.usagedata.recording 2 0 2012-11-30 10:53:04.437
+!MESSAGE The usage data upload server at http://udc.eclipse.org/upload.php could not be found.
+!STACK 0
+java.net.UnknownHostException: udc.eclipse.org
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.eclipse.epp.usagedata.internal.recording.uploading.BasicUploader.doUpload(BasicUploader.java:206)
+	at org.eclipse.epp.usagedata.internal.recording.uploading.BasicUploader.upload(BasicUploader.java:129)
+	at org.eclipse.epp.usagedata.internal.recording.uploading.BasicUploader$1.run(BasicUploader.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:54:33.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:54:44.921
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY unknown 8 1 2012-11-30 10:56:30.812
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:30.843
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.093
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.109
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.140
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.140
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.156
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.171
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.171
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.187
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.203
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.203
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.218
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.234
+!MESSAGE 
+
+!ENTRY unknown 8 1 2012-11-30 10:56:31.312
+!MESSAGE 
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:58:30.390
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:58:36.531
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 10:58:47.375
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:01:00.250
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:01:06.578
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:01:17.546
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:03:53.828
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:04:00.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:04:11.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:06:32.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:06:43.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:07:58.218
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:08:05.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:08:15.656
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:09:25.859
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:09:32.703
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:09:42.687
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:11:02.390
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:11:08.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:11:18.640
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:21:12.984
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:21:23.171
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:23:28.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:23:38.281
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:27:19.781
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:27:30.359
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:31:19.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:31:29.687
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:33:06.828
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:33:18.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:48:01.937
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:48:16.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:50:17.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:50:31.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:51:57.875
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:52:04.921
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:52:17.265
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:54:10.296
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:54:17.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:54:28.906
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:57:50.250
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:57:57.765
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:58:10.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:59:30.625
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:59:37.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 11:59:48.234
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:02:02.656
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:02:09.765
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:02:21.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:03:38.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:03:50.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY org.eclipse.ui 4 0 2012-11-30 12:04:16.140
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: )
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+Caused by: java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:47)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:172)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:155)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1153)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1139)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:418)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:114)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1110)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:99)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1287)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:809)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:309)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$4.run(AbstractHoverInformationControlManager.java:871)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 23 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:05:02.218
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:05:08.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:05:20.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:06:21.500
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:06:28.609
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:06:40.281
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:07:36.218
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:07:42.703
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:07:54.656
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:13:18.312
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200070 --id=0x0 --timestamp=1354182665]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 12:13:29.046
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200070 --id=0x0 --timestamp=1354182665 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 13:52:00.609
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:52:39.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:52:51.640
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:55:40.406
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:55:47.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 13:55:58.296
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x9200080, --id=0x0, --timestamp=1354252525] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:55:58.359
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 13:56:12.656
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x9200080, --id=0x0, --timestamp=1354252525, /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 13:56:12.656
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:56:49.921
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:57:01.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:57:54.453
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:58:01.906
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 13:58:13.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:09:14.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:09:25.421
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:12:13.093
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:12:24.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:14:10.109
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:14:21.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:21:37.765
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:21:48.343
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:23:11.343
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:23:19.750
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:23:31.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:45:21.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354252525]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 14:45:35.078
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354252525 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 15:36:34.828
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:37:13.781
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:37:29.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:41:27.828
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:41:37.687
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:41:50.765
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:42:50.296
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:42:59.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:43:12.140
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:45:04.781
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:45:17.937
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:55:02.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:55:14.531
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:57:42.562
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:57:51.390
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 15:58:03.312
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:00:21.562
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:00:33.484
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:02:44.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:02:56.937
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:07:22.046
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:07:34.875
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:11:01.437
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:11:11.000
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:11:23.687
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:13:24.093
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:13:34.062
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:13:47.406
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:17:50.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:18:02.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:23:23.796
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:23:37.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:26:13.328
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:26:26.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:27:44.765
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:27:55.625
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:28:08.656
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:32:33.078
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:32:46.656
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:35:20.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:35:35.062
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:38:05.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:38:19.171
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:48:02.203
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:48:17.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:52:44.171
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:52:54.046
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 16:53:13.500
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x9200080, --id=0x0, --timestamp=1354258592] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:53:13.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:54:30.125
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:54:44.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:56:44.390
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 16:56:58.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:01:32.390
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:01:46.734
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:06:46.843
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:07:04.515
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:07:23.109
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:11:13.968
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:11:28.296
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 17:18:13.765
+!MESSAGE The system console model is invalid. Cannot launch.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2012-11-30 17:20:07.312
+!MESSAGE The system console model is invalid. Cannot launch.
+!SESSION 2012-11-30 17:24:13.484 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:28:34.156
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200080 --id=0x0 --timestamp=1354258592]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2012-11-30 17:28:48.593
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, C:/altera/11.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200080 --id=0x0 --timestamp=1354258592 /cygdrive/d/SVN/DE2_115_CYPRESS/DEV/peli/DE2_115_NIOS_HOST_MOUSE_VGA/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+!SESSION 2017-11-28 16:05:44.032 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/17.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/17.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 1 1 2017-11-28 16:05:48.944
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.ui 1 1 2017-11-28 16:05:49.665
+!MESSAGE Workbench migration finished
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-28 16:05:55.101
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Del'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:06:01.172
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA_bsp' (166 sources, 278 headers) in 2.52 sec: 6,750 declarations; 12,602 references; 0 unresolved inclusions; 5 syntax errors; 65 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:06:01.538
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (7 sources, 52 headers) in 0.361 sec: 2,156 declarations; 3,229 references; 34 unresolved inclusions; 0 syntax errors; 76 unresolved names (1.4%)
+
+!ENTRY org.eclipse.ui 4 4 2017-11-28 16:18:39.930
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@42503099)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@422cf64e)}
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:22:16.106
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 45 headers) in 0.194 sec: 2,071 declarations; 3,069 references; 19 unresolved inclusions; 0 syntax errors; 41 unresolved names (0.79%)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-11-28 16:22:26.784
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeNodeIDMap(ResourceDeltaFactory.java:110)
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeDelta(ResourceDeltaFactory.java:64)
+	at org.eclipse.core.internal.events.BuildManager.getDelta(BuildManager.java:686)
+	at org.eclipse.core.internal.events.InternalBuilder.getDelta(InternalBuilder.java:112)
+	at org.eclipse.core.resources.IncrementalProjectBuilder.getDelta(IncrementalProjectBuilder.java:272)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.updateOtherConfigs(CommonBuilder.java:669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:519)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:287)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 75 2017-11-28 16:22:27.181
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2017-11-28 16:22:27.181
+!MESSAGE Errors running builder 'CDT Builder' on project 'DE2_115_NIOS_HOST_MOUSE_VGA'.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeNodeIDMap(ResourceDeltaFactory.java:110)
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeDelta(ResourceDeltaFactory.java:64)
+	at org.eclipse.core.internal.events.BuildManager.getDelta(BuildManager.java:686)
+	at org.eclipse.core.internal.events.InternalBuilder.getDelta(InternalBuilder.java:112)
+	at org.eclipse.core.resources.IncrementalProjectBuilder.getDelta(IncrementalProjectBuilder.java:272)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.updateOtherConfigs(CommonBuilder.java:669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:519)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:287)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:25:14.080
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 63 headers) in 0.279 sec: 2,297 declarations; 3,559 references; 9 unresolved inclusions; 0 syntax errors; 29 unresolved names (0.49%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:28:00.321
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 68 headers) in 0.271 sec: 2,341 declarations; 3,573 references; 1 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:29:41.949
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 68 headers) in 0.242 sec: 2,341 declarations; 3,573 references; 0 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:36:51.825
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 68 headers) in 0.239 sec: 2,341 declarations; 3,573 references; 0 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:42:20.798
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 68 headers) in 0.247 sec: 2,341 declarations; 3,573 references; 0 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-28 16:44:35.697
+!MESSAGE Indexed 'DE2_115_NIOS_HOST_MOUSE_VGA' (4 sources, 68 headers) in 0.209 sec: 2,341 declarations; 3,573 references; 0 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.084%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 16:53:24.928
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511909142]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 16:53:26.552
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511909142 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+!SESSION 2017-11-28 17:29:40.080 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/17.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/17.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-28 17:29:48.529
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Del'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 17:30:33.448
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511917595]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 17:30:35.165
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511917595 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 17:44:44.151
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511919178]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 17:44:45.777
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511919178 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 18:20:08.548
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511919178]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 18:20:10.172
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511919178 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 18:36:13.312
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511919178]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 18:36:14.966
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511919178 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 18:49:26.766
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511919178]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 18:49:28.393
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511919178 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:01:40.689
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:01:42.401
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:04:11.648
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:04:13.284
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:05:14.375
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:05:16.003
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:07:37.918
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:07:39.617
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:08:02.065
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:08:03.681
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:08:54.766
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:08:56.371
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:09:07.406
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:09:09.051
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:09:44.527
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:09:46.147
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:11:04.425
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511924021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:11:06.048
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511924021 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:26:01.308
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:26:02.953
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:39:54.301
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:39:55.926
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:41:09.535
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:41:11.178
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:42:44.400
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:42:46.118
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:43:22.192
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:43:23.816
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:44:07.307
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:44:08.949
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:44:39.101
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:44:40.740
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:45:10.031
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:45:11.652
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:50:46.511
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:50:48.149
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:52:08.267
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:52:09.879
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:52:51.359
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:52:52.969
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:53:21.080
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:53:22.688
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:54:31.510
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:54:33.134
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:55:37.514
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511925369]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-28 19:55:39.115
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511925369 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+!SESSION 2017-11-29 10:04:51.121 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/17.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/17.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-29 10:05:53.229
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Del'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 18:20:06.981
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511927913]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 18:20:08.665
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511927913 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 18:23:43.494
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1511927913]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 18:23:45.124
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1511927913 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 20:41:27.983
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 20:41:28.368
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1512016332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 20:41:29.990
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1512016332 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 20:44:21.276
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1512016332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-29 20:44:22.896
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1512016332 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:48:25.320
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1512070727]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:48:26.956
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1512070727 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:51:29.205
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:51:29.582
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1512070727]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:51:31.222
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1512070727 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:52:15.307
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:52:15.673
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9200810 --id=0x0 --timestamp=1512070727]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-11-30 11:52:17.333
+!MESSAGE Executing: [C:/intelfpga_lite/17.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9200810 --id=0x0 --timestamp=1512070727 /cygdrive/c/Users/Del/OneDrive/fpga/altera/Spectrum/software/DE2_115_NIOS_HOST_MOUSE_VGA/DE2_115_NIOS_HOST_MOUSE_VGA.elf]

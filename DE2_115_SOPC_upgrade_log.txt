@@ -1,0 +1,33 @@
+Info: Upgrading System to Qsys
+Debug: Transform: PipelineBridgeSwap
+Info: pipeline_bridge_swap_transform: After transform: 20 modules, 51 connections
+Debug: Transform: ClockCrossingBridgeSwap
+Debug: Transform: QsysBetaIPSwap
+Debug: Transform: TristateConduitUpgradeTransform
+Debug: Transform: ResetUpgradeTransform
+Info: reset_upgrade_transform: After transform: 20 modules, 94 connections
+Debug: Transform: BorderUpgradeTransform
+Info: border_upgrade_transform: After transform: 22 modules, 95 connections
+Info: Info: *******************************************************************
+Info: Info: Running Quartus II 32-bit Shell
+Info:     Info: Version 11.1 Build 259 01/25/2012 Service Pack 2 SJ Full Version
+Info:     Info: Copyright (C) 1991-2011 Altera Corporation. All rights reserved.
+Info:     Info: Your use of Altera Corporation's design tools, logic functions 
+Info:     Info: and other software and tools, and its AMPP partner logic 
+Info:     Info: functions, and any output files from any of the foregoing 
+Info:     Info: (including device programming or simulation files), and any 
+Info:     Info: associated documentation or information are expressly subject 
+Info:     Info: to the terms and conditions of the Altera Program License 
+Info:     Info: Subscription Agreement, Altera MegaCore Function License 
+Info:     Info: Agreement, or other applicable license agreement, including, 
+Info:     Info: without limitation, that your use is for the sole purpose of 
+Info:     Info: programming logic devices manufactured by Altera and sold by 
+Info:     Info: Altera or its authorized distributors.  Please refer to the 
+Info:     Info: applicable agreement for further details.
+Info:     Info: Processing started: Fri Oct 19 09:26:58 2012
+Info: Info: Command: quartus_sh -t sopc_qsys_upgrade.tcl
+Warning: Could not find a QSF file with a reference to the SOPC System
+Info: No qip file was found
+Info: File DE2_115_SOPC.sopc moved to DE2_115_SOPC_backup/DE2_115_SOPC.sopc
+Info: File DE2_115_SOPC.sopcinfo moved to DE2_115_SOPC_backup/DE2_115_SOPC.sopcinfo
+Info: SOPC to Qsys Upgrade Done

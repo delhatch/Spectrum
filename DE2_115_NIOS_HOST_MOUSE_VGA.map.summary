@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Nov 30 11:42:20 2017
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : DE2_115_NIOS_HOST_MOUSE_VGA
+Top-level Entity Name : Spectrum
+Family : Cyclone IV E
+Total logic elements : 14,198
+    Total combinational functions : 12,155
+    Dedicated logic registers : 9,489
+Total registers : 9489
+Total pins : 351
+Total virtual pins : 0
+Total memory bits : 2,592,412
+Embedded Multiplier 9-bit elements : 42
+Total PLLs : 2

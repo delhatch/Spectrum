@@ -1,0 +1,44 @@
+	DE2_115_SOPC u0 (
+		.audio_global_signals_export_adcdata  (<connected-to-audio_global_signals_export_adcdata>),  //      audio_global_signals.export_adcdata
+		.audio_global_signals_export_adclrc   (<connected-to-audio_global_signals_export_adclrc>),   //                          .export_adclrc
+		.audio_global_signals_export_bclk     (<connected-to-audio_global_signals_export_bclk>),     //                          .export_bclk
+		.audio_global_signals_export_fft_clk  (<connected-to-audio_global_signals_export_fft_clk>),  //                          .export_fft_clk
+		.audio_global_signals_export_debug    (<connected-to-audio_global_signals_export_debug>),    //                          .export_debug
+		.altpll_sys                           (<connected-to-altpll_sys>),                           //                c0_out_clk.clk
+		.altpll_io                            (<connected-to-altpll_io>),                            //                c2_out_clk.clk
+		.clk_50                               (<connected-to-clk_50>),                               //             clk_50_clk_in.clk
+		.reset_n                              (<connected-to-reset_n>),                              //       clk_50_clk_in_reset.reset_n
+		.LCD_RS_from_the_lcd                  (<connected-to-LCD_RS_from_the_lcd>),                  //              lcd_external.RS
+		.LCD_RW_from_the_lcd                  (<connected-to-LCD_RW_from_the_lcd>),                  //                          .RW
+		.LCD_data_to_and_from_the_lcd         (<connected-to-LCD_data_to_and_from_the_lcd>),         //                          .data
+		.LCD_E_from_the_lcd                   (<connected-to-LCD_E_from_the_lcd>),                   //                          .E
+		.altpll_sdram                         (<connected-to-altpll_sdram>),                         //                    pll_c1.clk
+		.altpll_25                            (<connected-to-altpll_25>),                            //                    pll_c3.clk
+		.locked_from_the_pll                  (<connected-to-locked_from_the_pll>),                  //        pll_locked_conduit.export
+		.zs_addr_from_the_sdram               (<connected-to-zs_addr_from_the_sdram>),               //                sdram_wire.addr
+		.zs_ba_from_the_sdram                 (<connected-to-zs_ba_from_the_sdram>),                 //                          .ba
+		.zs_cas_n_from_the_sdram              (<connected-to-zs_cas_n_from_the_sdram>),              //                          .cas_n
+		.zs_cke_from_the_sdram                (<connected-to-zs_cke_from_the_sdram>),                //                          .cke
+		.zs_cs_n_from_the_sdram               (<connected-to-zs_cs_n_from_the_sdram>),               //                          .cs_n
+		.zs_dq_to_and_from_the_sdram          (<connected-to-zs_dq_to_and_from_the_sdram>),          //                          .dq
+		.zs_dqm_from_the_sdram                (<connected-to-zs_dqm_from_the_sdram>),                //                          .dqm
+		.zs_ras_n_from_the_sdram              (<connected-to-zs_ras_n_from_the_sdram>),              //                          .ras_n
+		.zs_we_n_from_the_sdram               (<connected-to-zs_we_n_from_the_sdram>),               //                          .we_n
+		.SRAM_DQ_to_and_from_the_sram         (<connected-to-SRAM_DQ_to_and_from_the_sram>),         //          sram_conduit_end.DQ
+		.SRAM_ADDR_from_the_sram              (<connected-to-SRAM_ADDR_from_the_sram>),              //                          .ADDR
+		.SRAM_UB_n_from_the_sram              (<connected-to-SRAM_UB_n_from_the_sram>),              //                          .UB_n
+		.SRAM_LB_n_from_the_sram              (<connected-to-SRAM_LB_n_from_the_sram>),              //                          .LB_n
+		.SRAM_WE_n_from_the_sram              (<connected-to-SRAM_WE_n_from_the_sram>),              //                          .WE_n
+		.SRAM_CE_n_from_the_sram              (<connected-to-SRAM_CE_n_from_the_sram>),              //                          .CE_n
+		.SRAM_OE_n_from_the_sram              (<connected-to-SRAM_OE_n_from_the_sram>),              //                          .OE_n
+		.avs_s1_export_VGA_R_from_the_vpg     (<connected-to-avs_s1_export_VGA_R_from_the_vpg>),     // vpg_global_signals_export.VGA_R
+		.avs_s1_export_VGA_G_from_the_vpg     (<connected-to-avs_s1_export_VGA_G_from_the_vpg>),     //                          .VGA_G
+		.avs_s1_export_VGA_B_from_the_vpg     (<connected-to-avs_s1_export_VGA_B_from_the_vpg>),     //                          .VGA_B
+		.avs_s1_export_VGA_HS_from_the_vpg    (<connected-to-avs_s1_export_VGA_HS_from_the_vpg>),    //                          .VGA_HS
+		.avs_s1_export_VGA_VS_from_the_vpg    (<connected-to-avs_s1_export_VGA_VS_from_the_vpg>),    //                          .VGA_VS
+		.avs_s1_export_VGA_SYNC_from_the_vpg  (<connected-to-avs_s1_export_VGA_SYNC_from_the_vpg>),  //                          .VGA_SYNC
+		.avs_s1_export_VGA_BLANK_from_the_vpg (<connected-to-avs_s1_export_VGA_BLANK_from_the_vpg>), //                          .VGA_BLANK
+		.avs_s1_export_VGA_CLK_from_the_vpg   (<connected-to-avs_s1_export_VGA_CLK_from_the_vpg>),   //                          .VGA_CLK
+		.avs_s1_export_iCLK_25_to_the_vpg     (<connected-to-avs_s1_export_iCLK_25_to_the_vpg>)      //                          .iCLK_25
+	);
+

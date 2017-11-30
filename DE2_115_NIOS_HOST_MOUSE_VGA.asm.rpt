@@ -1,0 +1,105 @@
+Assembler report for DE2_115_NIOS_HOST_MOUSE_VGA
+Thu Nov 30 11:45:29 2017
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Encrypted IP Cores Summary
+  5. Assembler Generated Files
+  6. Assembler Device Options: C:/Users/Del/OneDrive/fpga/altera/Spectrum/DE2_115_NIOS_HOST_MOUSE_VGA_time_limited.sof
+  7. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Thu Nov 30 11:45:29 2017 ;
+; Revision Name         ; DE2_115_NIOS_HOST_MOUSE_VGA           ;
+; Top-level Entity Name ; Spectrum                              ;
+; Family                ; Cyclone IV E                          ;
+; Device                ; EP4CE115F29C7                         ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
+
+
++--------------------------------------------------------+
+; Assembler Encrypted IP Cores Summary                   ;
++--------+-------------------------------+---------------+
+; Vendor ; IP Core Name                  ; License Type  ;
++--------+-------------------------------+---------------+
+; Altera ; FFT/IFFT (6AF7 0034)          ; OpenCore Plus ;
+; Altera ; Nios II Processor (6AF7 00A2) ; OpenCore Plus ;
+; Altera ; Signal Tap (6AF7 BCE1)        ; Licensed      ;
+; Altera ; Signal Tap (6AF7 BCEC)        ; Licensed      ;
++--------+-------------------------------+---------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                               ;
++-----------------------------------------------------------------------------------------+
+; File Name                                                                               ;
++-----------------------------------------------------------------------------------------+
+; C:/Users/Del/OneDrive/fpga/altera/Spectrum/DE2_115_NIOS_HOST_MOUSE_VGA_time_limited.sof ;
++-----------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Del/OneDrive/fpga/altera/Spectrum/DE2_115_NIOS_HOST_MOUSE_VGA_time_limited.sof ;
++----------------+--------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                          ;
++----------------+--------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x03196A0E                                                                                       ;
+; Checksum       ; 0x03196A0E                                                                                       ;
++----------------+--------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Thu Nov 30 11:45:22 2017
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DE2_115_NIOS_HOST_MOUSE_VGA -c DE2_115_NIOS_HOST_MOUSE_VGA
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info (115017): Design contains a time-limited core -- only a single, time-limited programming file can be generated
+Warning (210042): Can't convert time-limited SOF into POF, HEX File, TTF, or RBF
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 635 megabytes
+    Info: Processing ended: Thu Nov 30 11:45:29 2017
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
+
+

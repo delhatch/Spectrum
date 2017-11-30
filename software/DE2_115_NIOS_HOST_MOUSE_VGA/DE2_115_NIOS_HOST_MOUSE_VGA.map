@@ -1,0 +1,1274 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+                              obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o (__divdf3)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+                              obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o (__fixdfsi)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+                              obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o (__floatsidf)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o) (__clzsi2)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o) (__udivsi3)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o) (__clz_tab)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              obj/default/LCD.o (strlen)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o (alt_load)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o (alt_main)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o (usleep)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_lcd_16207_init)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_lcd_16207_write_fd)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (close)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o) (__ctype_ptr__)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                              ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o) (memset)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000000000 0x0000000000000020
+sdram            0x0000000000000020 0x0000000007ffffe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+LOAD obj/default/LCD.o
+LOAD obj/default/VGA.o
+LOAD c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a
+LOAD c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+LOAD ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+                0x0000000000000000                __alt_mem_sdram = 0x0
+
+.entry          0x0000000000000000       0x20
+ *(.entry)
+ .entry         0x0000000000000000       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+                0x0000000000000000                __reset
+
+.exceptions     0x0000000000000020      0x1a0
+                0x0000000000000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000000020        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000000020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000000020        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000000020       0x54 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000000074       0x10 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000000084        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000000088        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000000008c        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000000008c        0x8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000000094        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x0000000000000098        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x0000000000000098        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x0000000000000098       0x54 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000000ec       0xd4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000000ec                alt_irq_handler
+                0x00000000000001c0                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00000000000001c0     0x4f00
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000001c0       0x4c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+                0x00000000000001c0                _start
+ .text          0x000000000000020c      0xa9c obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+                0x000000000000020c                Vga_clear_screen
+                0x000000000000029c                main
+ .text          0x0000000000000ca8      0x208 obj/default/LCD.o
+                0x0000000000000ca8                LCD_Init
+                0x0000000000000d48                LCD_Show_Text
+                0x0000000000000dcc                LCD_Line2
+                0x0000000000000e0c                LCD_Test
+ .text          0x0000000000000eb0      0x15c obj/default/VGA.o
+                0x0000000000000eb0                Set_Cursor_XY
+                0x0000000000000ef8                Set_Cursor_Color
+                0x0000000000000f54                Set_Pixel_On_Color
+                0x0000000000000fb0                Set_Pixel_Off_Color
+ .text          0x000000000000100c      0x8e8 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+                0x000000000000100c                __divdf3
+ .text          0x00000000000018f4       0x80 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+                0x00000000000018f4                __fixdfsi
+ .text          0x0000000000001974       0xdc c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+                0x0000000000001974                __floatsidf
+ .text          0x0000000000001a50       0x64 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+                0x0000000000001a50                __clzsi2
+ .text          0x0000000000001ab4      0x1b4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                0x0000000000001ab4                __divsi3
+                0x0000000000001b38                __modsi3
+                0x0000000000001bac                __udivsi3
+                0x0000000000001c10                __umodsi3
+ .text          0x0000000000001c68        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .text          0x0000000000001c68        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000001c68       0x98 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x0000000000001c68                strlen
+ .text          0x0000000000001d00       0xec ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000001d68                alt_load
+ .text          0x0000000000001dec       0x7c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000001dec                alt_main
+ .text          0x0000000000001e68       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x0000000000001e68                usleep
+ .text          0x0000000000001e98       0xe8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000001ecc                alt_irq_init
+                0x0000000000001f04                alt_sys_init
+ .text          0x0000000000001f80      0x164 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000000000001f80                altera_avalon_jtag_uart_read_fd
+                0x0000000000001fe0                altera_avalon_jtag_uart_write_fd
+                0x0000000000002040                altera_avalon_jtag_uart_close_fd
+                0x0000000000002090                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x00000000000020e4      0x3d4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x00000000000020e4                altera_avalon_jtag_uart_init
+                0x0000000000002450                altera_avalon_jtag_uart_close
+ .text          0x00000000000024b8       0xf0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x00000000000024b8                altera_avalon_jtag_uart_ioctl
+ .text          0x00000000000025a8      0x21c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00000000000025a8                altera_avalon_jtag_uart_read
+ .text          0x00000000000027c4      0x224 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000027c4                altera_avalon_jtag_uart_write
+ .text          0x00000000000029e8      0xe7c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+                0x00000000000031ac                altera_avalon_lcd_16207_write
+                0x0000000000003730                altera_avalon_lcd_16207_init
+ .text          0x0000000000003864       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+                0x0000000000003864                altera_avalon_lcd_16207_write_fd
+ .text          0x00000000000038c4       0xf4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x000000000000393c                alt_avalon_timer_sc_init
+ .text          0x00000000000039b8      0x12c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x00000000000039b8                alt_alarm_start
+ .text          0x0000000000003ae4      0x158 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000003ae4                alt_busy_sleep
+ .text          0x0000000000003c3c      0x10c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+                0x0000000000003c78                close
+ .text          0x0000000000003d48       0x48 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000003d48                alt_dcache_flush_all
+ .text          0x0000000000003d90       0x2c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x0000000000003dbc       0xe0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000003df8                alt_dev_llist_insert
+ .text          0x0000000000003e9c       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x0000000000003e9c                _do_ctors
+ .text          0x0000000000003efc       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000003efc                _do_dtors
+ .text          0x0000000000003f5c        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000003f5c       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000003f5c                alt_icache_flush_all
+ .text          0x0000000000003f90      0x1b0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+                0x0000000000003f90                alt_ic_isr_register
+                0x0000000000003fe0                alt_ic_irq_enable
+                0x0000000000004068                alt_ic_irq_disable
+                0x00000000000040f4                alt_ic_irq_enabled
+ .text          0x0000000000004140       0xf0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000004140                alt_iic_isr_register
+ .text          0x0000000000004230      0x140 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x00000000000042f4                alt_io_redirect
+ .text          0x0000000000004370        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000004370        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000004370        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000004370      0x254 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000000004470                open
+ .text          0x00000000000045c4       0x64 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00000000000045c4                alt_release_fd
+ .text          0x0000000000004628      0x1a4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000004628                alt_alarm_stop
+                0x00000000000046c4                alt_tick
+ .text          0x00000000000047cc       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000047cc                altera_nios2_gen2_irq_init
+ .text          0x00000000000047f0        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00000000000047f0       0x90 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00000000000047f0                alt_find_dev
+ .text          0x0000000000004880      0x108 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x0000000000004880                alt_find_file
+ .text          0x0000000000004988       0xa4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x0000000000004988                alt_get_fd
+ .text          0x0000000000004a2c       0x90 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000004a2c                alt_icache_flush
+ .text          0x0000000000004abc        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000004abc       0x14 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x0000000000004abc                atexit
+ .text          0x0000000000004ad0        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .text          0x0000000000004ad0        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000004ad0       0x38 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x0000000000004ad0                exit
+ .text          0x0000000000004b08        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x0000000000004b08        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x0000000000004b08        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x0000000000004b08       0x7c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x0000000000004b08                memcmp
+ .text          0x0000000000004b84        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000004b84      0x148 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                0x0000000000004b84                memcpy
+ .text          0x0000000000004ccc        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .text.memset   0x0000000000004ccc      0x128 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                0x0000000000004ccc                memset
+ .text          0x0000000000004df4        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000004df4      0x118 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x0000000000004df4                __register_exitproc
+ .text          0x0000000000004f0c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000004f0c      0x180 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000000004f0c                __call_exitprocs
+ .text          0x000000000000508c       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000000508c                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00000000000050c0                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00000000000050c0                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00000000000050c0                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00000000000050c0                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00000000000050c0                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00000000000050c0                . = ALIGN (0x4)
+
+.rodata         0x00000000000050c0      0x3bc
+                0x00000000000050c0                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00000000000050c0                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000000000050c0      0x100 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+                0x00000000000050c0                __clz_tab
+ .rodata        0x00000000000051c0        0xf ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x00000000000051cf        0x1 
+ .rodata        0x00000000000051d0       0x19 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x00000000000051e9        0x3 
+ .rodata        0x00000000000051ec        0xa ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata._ctype_
+                0x00000000000051f6      0x101 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                0x00000000000051f6                _ctype_
+ .rodata._ctype_b
+                0x00000000000052f7      0x180 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ *fill*         0x0000000000005477        0x1 
+ .rodata.str1.4
+                0x0000000000005478        0x4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x000000000000547c                . = ALIGN (0x4)
+                0x000000000000547c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00000000000050c0                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000000547c     0x1780 load address 0x0000000000006bfc
+                0x000000000000547c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000000547c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000547c        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000000547c        0x0 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .data          0x000000000000547c        0x0 obj/default/LCD.o
+ .data          0x000000000000547c        0x0 obj/default/VGA.o
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .data          0x000000000000547c        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x000000000000547c        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000000000000547c        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000000000000547c        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x000000000000547c     0x1180 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00000000000065fc        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00000000000065fc      0x1a8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000000065fc                alt_dev_null
+                0x0000000000006624                alt_fd_list
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x00000000000067a4        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x00000000000067a4        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x00000000000067a4        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .data          0x00000000000067a4        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x00000000000067a4        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000000067a4      0x424 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x0000000000006bc8        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x0000000000006bc8        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000006bc8        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000006bc8        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .data          0x0000000000006bc8        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x0000000000006bc8        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000006bc8        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000000ebc8                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000006bc8        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .sdata         0x0000000000006bcc       0x14 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000006bcc                alt_fs_list
+                0x0000000000006bd4                alt_dev_list
+                0x0000000000006bdc                alt_max_fd
+ .sdata         0x0000000000006be0        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000006be0                alt_errno
+ .sdata         0x0000000000006be4        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000006be4                alt_priority_mask
+ .sdata         0x0000000000006be8        0x8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000006be8                alt_alarm_list
+ .sdata.__ctype_ptr__
+                0x0000000000006bf0        0x4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                0x0000000000006bf0                __ctype_ptr__
+ .sdata._global_impure_ptr
+                0x0000000000006bf4        0x4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000006bf4                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000006bf8        0x4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000006bf8                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000006bfc                . = ALIGN (0x4)
+                0x0000000000006bfc                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000006bfc                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000006bfc                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x000000000000837c      0x11c
+                0x000000000000837c                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000000837c        0xc ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000000837c                alt_argc
+                0x0000000000008380                alt_argv
+                0x0000000000008384                alt_envp
+ .sbss          0x0000000000008388        0x4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000008388                alt_irq_active
+ .sbss          0x000000000000838c        0x8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000000000000838c                _alt_tick_rate
+                0x0000000000008390                _alt_nticks
+ .sbss          0x0000000000008394        0x4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x0000000000008394                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000008398        0x0 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .bss           0x0000000000008398        0x0 obj/default/LCD.o
+ .bss           0x0000000000008398        0x0 obj/default/VGA.o
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000008398        0x0 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000008398        0x0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000000008398      0x100 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000008398                alt_irq
+                0x0000000000008498                . = ALIGN (0x4)
+                0x0000000000008498                __bss_end = ABSOLUTE (.)
+
+.sdram          0x0000000000008498        0x0
+                [!provide]                        PROVIDE (_alt_partition_sdram_start, ABSOLUTE (.))
+ *(.sdram .sdram. sdram.*)
+                0x0000000000008498                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_sdram_end, ABSOLUTE (.))
+                0x0000000000008498                _end = ABSOLUTE (.)
+                0x0000000000008498                end = ABSOLUTE (.)
+                0x0000000000008498                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_sdram_load_addr, LOADADDR (.sdram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 obj/default/LCD.o
+ .comment       0x0000000000000023       0x24 obj/default/VGA.o
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x760
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .debug_aranges
+                0x0000000000000048       0x20 obj/default/LCD.o
+ .debug_aranges
+                0x0000000000000068       0x20 obj/default/VGA.o
+ .debug_aranges
+                0x0000000000000088       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000108       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000128       0x18 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000140       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000160       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000180       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000200       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000220       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000240       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000260       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000280       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_aranges
+                0x00000000000002c0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x0000000000000300       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x0000000000000320       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x0000000000000340       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000360       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000380       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x00000000000003c0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000000000003e0       0x18 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000003f8       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000418       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x0000000000000438       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000458       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000478       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000000000004a8       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000000000004c8       0x18 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000000000004e0       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x0000000000000500       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x0000000000000520       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x0000000000000540       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000560       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000598       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000005b8       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000000000005d8       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000000000005f8       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000618       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000638       0x18 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_aranges
+                0x0000000000000650       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000670       0x18 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000688       0x18 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000000000006a0       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000000000006c0       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000000006e0       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000700       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000720       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000740       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x97aa
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x88 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000088      0x20a obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .debug_info    0x0000000000000292      0x122 obj/default/LCD.o
+ .debug_info    0x00000000000003b4      0x148 obj/default/VGA.o
+ .debug_info    0x00000000000004fc      0x5c7 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_info    0x0000000000000ac3      0x1ae c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000000c71      0x1bc c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_info    0x0000000000000e2d      0x124 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000000f51      0x2c6 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000001217       0xb2 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_info    0x00000000000012c9       0xe2 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x00000000000013ab      0x145 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000000000014f0      0x131 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000001621       0xb0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x00000000000016d1      0x644 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000001d15      0x52e ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000002243      0x3a0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00000000000025e3      0x280 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x0000000000002863      0x345 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000002ba8      0x340 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000002ee8      0x6d1 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_info    0x00000000000035b9      0x4cc ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_info    0x0000000000003a85      0x226 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x0000000000003cab      0x2cc ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x0000000000003f77       0xd7 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x000000000000404e      0x321 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x000000000000436f       0xa5 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000004414      0x49c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00000000000048b0      0x1a9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000004a59       0x83 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000004adc       0x83 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x0000000000004b5f       0xa6 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000004c05       0x92 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000004c97      0x350 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000004fe7      0x1ef ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x00000000000051d6      0x4a5 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000000000000567b       0x91 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000570c      0x187 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000005893       0x88 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x000000000000591b      0x3bb ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000000000005cd6      0x2b0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000005f86      0x299 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x000000000000621f       0x92 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000062b1       0x97 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000006348      0x2e9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000006631      0x2e6 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000006917      0x310 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000006c27       0xdc ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000006d03       0xfe c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000006e01       0x96 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_info    0x0000000000006e97      0x8e4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x000000000000777b      0x8a1 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x000000000000801c       0x8a c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x00000000000080a6      0x11a c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000081c0      0x144 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000008304      0x121 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000008425      0x934 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000008d59      0x965 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00000000000096be       0xec ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x365c
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0xe4 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .debug_abbrev  0x00000000000000f6       0xc5 obj/default/LCD.o
+ .debug_abbrev  0x00000000000001bb       0x6d obj/default/VGA.o
+ .debug_abbrev  0x0000000000000228      0x12d c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000000355      0x135 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x000000000000048a      0x124 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_abbrev  0x00000000000005ae       0xbe c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000000000000066c      0x10e c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x000000000000077a       0x5d c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_abbrev  0x00000000000007d7       0x90 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000867       0x9f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000906       0xba ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000009c0       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x0000000000000a20      0x19f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000bbf      0x127 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000000ce6      0x19e ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x0000000000000e84      0x111 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000000000000f95      0x1aa ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000000000000113f      0x1a8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00000000000012e7      0x20f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_abbrev  0x00000000000014f6      0x125 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_abbrev  0x000000000000161b      0x155 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x0000000000001770      0x162 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00000000000018d2       0x7e ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000000000001950      0x11f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000001a6f       0x5a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001ac9       0xd9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001ba2      0x114 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000001cb6       0x79 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000001d2f       0x79 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000001da8       0x5a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001e02       0x42 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001e44      0x163 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001fa7      0x169 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000002110      0x114 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000002224       0x12 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000002236      0x122 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000002358       0x40 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000002398      0x148 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00000000000024e0       0xde ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000000000025be      0x15a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x0000000000002718       0x42 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000275a       0x12 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000000000000276c       0xf0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x000000000000285c       0xf0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x000000000000294c      0x10d ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000002a59       0x8c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000002ae5       0xaa c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000002b8f       0x5d c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_abbrev  0x0000000000002bec      0x1e5 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000002dd1      0x18f c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000002f60       0x37 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000002f97       0x7f c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000003016       0xa3 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000000000030b9       0xae c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000003167      0x21e c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000003385      0x22e c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000035b3       0xa9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x3ae1
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x223 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .debug_line    0x0000000000000295       0xa9 obj/default/LCD.o
+ .debug_line    0x000000000000033e       0x87 obj/default/VGA.o
+ .debug_line    0x00000000000003c5      0x2ad c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_line    0x0000000000000672       0x98 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_line    0x000000000000070a       0x9f c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_line    0x00000000000007a9       0xb7 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000860      0x102 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000000962       0x53 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_line    0x00000000000009b5      0x16c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000000b21       0x8e ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000baf       0xa4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000c53       0xad ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x0000000000000d00      0x191 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000e91      0x12f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x0000000000000fc0      0x18b ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x000000000000114b      0x131 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x000000000000127c      0x171 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000013ed      0x170 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000000000000155d      0x343 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_line    0x00000000000018a0      0x119 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_line    0x00000000000019b9       0xfd ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x0000000000001ab6       0xf9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000001baf       0xa0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000001c4f      0x165 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000001db4       0x61 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001e15       0xf8 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000001f0d       0xcf ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000001fdc       0x59 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000000000002035       0x59 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x000000000000208e       0x51 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000000000020df       0x50 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000000000000212f       0xeb ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x000000000000221a       0xdb ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000000000022f5      0x133 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x0000000000002428       0x6b ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000002493       0xaa ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000000000000253d       0x50 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x000000000000258d      0x128 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x00000000000026b5       0xae ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000002763       0xff ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000002862       0x51 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x00000000000028b3       0xad ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000002960       0xb5 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000002a15       0xd1 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000002ae6       0xd4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000002bba       0x81 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000002c3b       0xe4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000002d1f       0xc4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_line    0x0000000000002de3      0x1f9 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x0000000000002fdc      0x15d c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000003139       0x5c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000003195      0x173 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000003308      0x189 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000003491      0x18c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_line    0x000000000000361d      0x21c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000003839      0x237 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000003a70       0x71 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0xf7c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x54 obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+ .debug_frame   0x0000000000000054       0xb0 obj/default/LCD.o
+ .debug_frame   0x0000000000000104       0xa0 obj/default/VGA.o
+ .debug_frame   0x00000000000001a4       0x58 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_frame   0x00000000000001fc       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000000000000021c       0x38 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_frame   0x0000000000000254       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_frame   0x0000000000000274       0x50 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000002c4       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000000000002e4       0x5c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000340       0x2c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000000000036c       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x00000000000003a4       0x88 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000000000000042c       0xb0 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x00000000000004dc       0xa4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x0000000000000580       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000000000005b4       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000005ec       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000624      0x178 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_frame   0x000000000000079c       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_frame   0x00000000000007d4       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x0000000000000834       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x0000000000000868       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000000000008a0       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000900       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000934       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000968       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000009c8       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x0000000000000a00       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x0000000000000a38       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000a70       0xa4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000b14       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000b4c       0x60 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000000bac       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000be4       0x84 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000000c68       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000c9c       0x5c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000000000000cf8       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000d2c       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000000000000d64       0x38 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x0000000000000d9c       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000dd0       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000e04       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000e24       0x28 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000e4c       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000e6c       0x38 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000ea4       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000ec4       0x38 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000efc       0x54 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000f50       0x2c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x2046
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x1cc obj/default/DE2_115_NIOS_HOST_MOUSE_VGA.o
+                                        0x21e (size before relaxing)
+ .debug_str     0x00000000000001cc       0x3c obj/default/LCD.o
+                                        0x17c (size before relaxing)
+ .debug_str     0x0000000000000208       0x46 obj/default/VGA.o
+                                        0x16d (size before relaxing)
+ .debug_str     0x000000000000024e      0x2c1 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+                                        0x347 (size before relaxing)
+ .debug_str     0x000000000000050f       0x53 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+                                        0x211 (size before relaxing)
+ .debug_str     0x0000000000000562       0x69 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+                                        0x228 (size before relaxing)
+ .debug_str     0x00000000000005cb       0x63 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+                                        0x1e6 (size before relaxing)
+ .debug_str     0x000000000000062e       0x7c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                                        0x1b8 (size before relaxing)
+ .debug_str     0x00000000000006aa      0x1c9 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_str     0x00000000000006aa      0x139 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x00000000000007e3      0x145 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x229 (size before relaxing)
+ .debug_str     0x0000000000000928       0x70 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1b4 (size before relaxing)
+ .debug_str     0x0000000000000998       0x27 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x15f (size before relaxing)
+ .debug_str     0x00000000000009bf      0x285 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x47c (size before relaxing)
+ .debug_str     0x0000000000000c44       0xb9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x3bb (size before relaxing)
+ .debug_str     0x0000000000000cfd       0xd1 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x34f (size before relaxing)
+ .debug_str     0x0000000000000dce       0x4a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x2aa (size before relaxing)
+ .debug_str     0x0000000000000e18       0x7f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x2ff (size before relaxing)
+ .debug_str     0x0000000000000e97       0x4a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x300 (size before relaxing)
+ .debug_str     0x0000000000000ee1      0x1f9 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+                                        0x4a6 (size before relaxing)
+ .debug_str     0x00000000000010da       0x4a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+                                        0x36f (size before relaxing)
+ .debug_str     0x0000000000001124       0x6d ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x262 (size before relaxing)
+ .debug_str     0x0000000000001191       0x5f ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x295 (size before relaxing)
+ .debug_str     0x00000000000011f0       0x42 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x182 (size before relaxing)
+ .debug_str     0x0000000000001232       0x44 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x222 (size before relaxing)
+ .debug_str     0x0000000000001276       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x16c (size before relaxing)
+ .debug_str     0x00000000000012aa      0x120 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x31c (size before relaxing)
+ .debug_str     0x00000000000013ca       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x00000000000013fe       0x48 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xe7 (size before relaxing)
+ .debug_str     0x0000000000001446       0x4c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xe6 (size before relaxing)
+ .debug_str     0x0000000000001492       0x14 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x15c (size before relaxing)
+ .debug_str     0x00000000000014a6       0x34 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x16c (size before relaxing)
+ .debug_str     0x00000000000014da       0xc4 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x255 (size before relaxing)
+ .debug_str     0x000000000000159e       0x4c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1ff (size before relaxing)
+ .debug_str     0x00000000000015ea       0x56 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x32d (size before relaxing)
+ .debug_str     0x0000000000001640       0x3a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x1ae (size before relaxing)
+ .debug_str     0x000000000000167a       0x17 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x151 (size before relaxing)
+ .debug_str     0x0000000000001691       0x29 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x262 (size before relaxing)
+ .debug_str     0x00000000000016ba       0x28 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1ea (size before relaxing)
+ .debug_str     0x00000000000016e2       0x4a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x269 (size before relaxing)
+ .debug_str     0x000000000000172c       0x3b ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x173 (size before relaxing)
+ .debug_str     0x0000000000001767       0x24 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x203 (size before relaxing)
+ .debug_str     0x000000000000178b       0x26 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x211 (size before relaxing)
+ .debug_str     0x00000000000017b1       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x233 (size before relaxing)
+ .debug_str     0x00000000000017e1       0x2c ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x172 (size before relaxing)
+ .debug_str     0x000000000000180d      0x102 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x000000000000190f       0xcd c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                                        0x149 (size before relaxing)
+ .debug_str     0x00000000000019dc      0x3b4 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                        0x5a4 (size before relaxing)
+ .debug_str     0x0000000000001d90       0xc8 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                        0x59b (size before relaxing)
+ .debug_str     0x0000000000001e58       0x3c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                        0x1c3 (size before relaxing)
+ .debug_str     0x0000000000001e94       0x41 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                        0x1ca (size before relaxing)
+ .debug_str     0x0000000000001ed5       0x68 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x0000000000001f3d       0x41 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                                        0x1de (size before relaxing)
+ .debug_str     0x0000000000001f7e       0x3c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                        0x5dc (size before relaxing)
+ .debug_str     0x0000000000001fba       0x62 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                        0x5c8 (size before relaxing)
+ .debug_str     0x000000000000201c       0x2a ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x168 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x30ab
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x1fc6 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000001fc6      0x121 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_loc     0x00000000000020e7      0x175 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_loc     0x000000000000225c       0x6b c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000000000022c7      0x4ce c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000000000002795       0x47 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000027dc       0x2c c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000002808       0x1e c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loc     0x0000000000002826      0x126 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x000000000000294c      0x266 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000002bb2      0x1a6 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_loc     0x0000000000002d58      0x185 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000002edd      0x1ce c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x60
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000030       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000008000000                __alt_data_end = 0x8000000
+                0x0000000008000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x8000000)
+OUTPUT(DE2_115_NIOS_HOST_MOUSE_VGA.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x388
+ .debug_ranges  0x0000000000000000       0x20 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020      0x138 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000000158       0x30 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_ranges  0x0000000000000188       0x20 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatsidf.o)
+ .debug_ranges  0x00000000000001a8       0x18 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x00000000000001c0       0x60 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x0000000000000220       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000230       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x0000000000000260       0x18 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000278       0x18 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_ranges  0x0000000000000290       0x28 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000000000002b8       0x10 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000002c8       0x30 ../DE2_115_NIOS_HOST_MOUSE_VGA_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000002f8       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000308       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000318       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_ranges  0x0000000000000328       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000338       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_ranges  0x0000000000000348       0x10 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000358       0x30 c:/intelfpga_lite/17.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)

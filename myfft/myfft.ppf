@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="fft_ii_0"
+ megafunction_name="ALTERA_FFT_II"
+ intended_family="Cyclone IV E"
+ specifies="all_ports">
+ <global>
+  <pin name="clk" direction="input" scope="external" />
+  <pin name="reset_n" direction="input" scope="external" />
+  <pin name="sink_valid" direction="input" scope="external" />
+  <pin name="sink_ready" direction="output" scope="external" />
+  <pin name="sink_error[1..0]" direction="input" scope="external" />
+  <pin name="sink_sop" direction="input" scope="external" />
+  <pin name="sink_eop" direction="input" scope="external" />
+  <pin name="sink_real[15..0]" direction="input" scope="external" />
+  <pin name="sink_imag[15..0]" direction="input" scope="external" />
+  <pin name="fftpts_in[9..0]" direction="input" scope="external" />
+  <pin name="inverse" direction="input" scope="external" />
+  <pin name="source_valid" direction="output" scope="external" />
+  <pin name="source_ready" direction="input" scope="external" />
+  <pin name="source_error[1..0]" direction="output" scope="external" />
+  <pin name="source_sop" direction="output" scope="external" />
+  <pin name="source_eop" direction="output" scope="external" />
+  <pin name="source_real[15..0]" direction="output" scope="external" />
+  <pin name="source_imag[15..0]" direction="output" scope="external" />
+  <pin name="fftpts_out[9..0]" direction="output" scope="external" />
+ </global>
+</pinplan>

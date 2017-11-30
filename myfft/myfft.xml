@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2017.11.30.11:33:27"
+ outputDirectory="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone IV E"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="EP4CE115F29C7"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="7"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="rst" kind="reset" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="reset_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="sink" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="rst" />
+   <port name="sink_valid" direction="input" role="sink_valid" width="1" />
+   <port name="sink_ready" direction="output" role="sink_ready" width="1" />
+   <port name="sink_error" direction="input" role="sink_error" width="2" />
+   <port name="sink_sop" direction="input" role="sink_sop" width="1" />
+   <port name="sink_eop" direction="input" role="sink_eop" width="1" />
+   <port name="sink_real" direction="input" role="sink_real" width="16" />
+   <port name="sink_imag" direction="input" role="sink_imag" width="16" />
+   <port name="fftpts_in" direction="input" role="fftpts_in" width="10" />
+   <port name="inverse" direction="input" role="inverse" width="1" />
+  </interface>
+  <interface name="source" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="rst" />
+   <port name="source_valid" direction="output" role="source_valid" width="1" />
+   <port name="source_ready" direction="input" role="source_ready" width="1" />
+   <port name="source_error" direction="output" role="source_error" width="2" />
+   <port name="source_sop" direction="output" role="source_sop" width="1" />
+   <port name="source_eop" direction="output" role="source_eop" width="1" />
+   <port name="source_real" direction="output" role="source_real" width="16" />
+   <port name="source_imag" direction="output" role="source_imag" width="16" />
+   <port name="fftpts_out" direction="output" role="fftpts_out" width="10" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="myfft:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP4CE115F29C7,AUTO_DEVICE_FAMILY=Cyclone IV E,AUTO_DEVICE_SPEEDGRADE=7,AUTO_GENERATION_ID=1512070407,AUTO_UNIQUE_ID=(altera_fft_ii:17.1:CALC_LATENCY=512,THROUGHPUT_LATENCY=1024,data_flow=Variable Streaming,data_rep=Fixed Point,design_env=NATIVE,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=16,in_width_derived=16,length=512,num_engines=1,num_engines_derived=1,out_order=Natural,out_width=16,out_width_derived=16,selected_device_family=Cyclone IV E,twid_width=16,twid_width_derived=16)"
+   instancePathKey="myfft"
+   kind="myfft"
+   version="1.0"
+   name="myfft">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="1512070407" />
+  <parameter name="AUTO_DEVICE" value="EP4CE115F29C7" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <generatedFiles>
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/myfft.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_text_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_math_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_lib_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_roundsat.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/apn_fft_mult_can.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/apn_fft_mult_cpx_1825.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/apn_fft_mult_cpx.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/hyper_opt_OFF_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_dual_port_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_dual_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_mult_add.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_single_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_fft_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/hyper_pipeline_interface.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/counter_module.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_lib_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_bit_reverse_addr_control.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_bit_reverse_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_bit_reverse_reverse_carry_adder.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_adder_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_addsub.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_bfi.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_bfii.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_bf_control.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma_adder_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma_bfi_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_counter.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_delay.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_enable_control.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_stg_out_pipe.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_stg_pipe.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_twrom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_lite/17.1/ip/altera/dsp/altera_fft_ii/altera_fft_ii_hw.tcl" />
+   <file
+       path="C:/intelFPGA_lite/17.1/ip/altera/dsp/altera_fft_ii/fft_helper.jar" />
+   <file
+       path="C:/intelFPGA_lite/17.1/quartus/sopc_builder/model/lib/com.altera.entityinterfaces.jar" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="myfft">queue size: 0 starting:myfft "myfft"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="myfft"><![CDATA["<b>myfft</b>" reuses <b>altera_fft_ii</b> "<b>submodules/myfft_fft_ii_0</b>"]]></message>
+   <message level="Debug" culprit="myfft">queue size: 0 starting:altera_fft_ii "submodules/myfft_fft_ii_0"</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr1.hex</message>
+   <message level="Info" culprit="fft_ii_0"><![CDATA["<b>myfft</b>" instantiated <b>altera_fft_ii</b> "<b>fft_ii_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_fft_ii:17.1:CALC_LATENCY=512,THROUGHPUT_LATENCY=1024,data_flow=Variable Streaming,data_rep=Fixed Point,design_env=NATIVE,direction=Bi-directional,dsp_resource_opt=false,engine_arch=Quad Output,hard_fp=false,hyper_opt=false,in_order=Natural,in_width=16,in_width_derived=16,length=512,num_engines=1,num_engines_derived=1,out_order=Natural,out_width=16,out_width_derived=16,selected_device_family=Cyclone IV E,twid_width=16,twid_width_derived=16"
+   instancePathKey="myfft:.:fft_ii_0"
+   kind="altera_fft_ii"
+   version="17.1"
+   name="myfft_fft_ii_0">
+  <parameter name="THROUGHPUT_LATENCY" value="1024" />
+  <parameter name="in_width_derived" value="16" />
+  <parameter name="in_order" value="Natural" />
+  <parameter name="hyper_opt" value="false" />
+  <parameter name="num_engines_derived" value="1" />
+  <parameter name="twid_width_derived" value="16" />
+  <parameter name="length" value="512" />
+  <parameter name="out_order" value="Natural" />
+  <parameter name="selected_device_family" value="Cyclone IV E" />
+  <parameter name="dsp_resource_opt" value="false" />
+  <parameter name="CALC_LATENCY" value="512" />
+  <parameter name="design_env" value="NATIVE" />
+  <parameter name="data_rep" value="Fixed Point" />
+  <parameter name="in_width" value="16" />
+  <parameter name="engine_arch" value="Quad Output" />
+  <parameter name="data_flow" value="Variable Streaming" />
+  <parameter name="out_width" value="16" />
+  <parameter name="num_engines" value="1" />
+  <parameter name="out_width_derived" value="16" />
+  <parameter name="hard_fp" value="false" />
+  <parameter name="twid_width" value="16" />
+  <parameter name="direction" value="Bi-directional" />
+  <generatedFiles>
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr3.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr4.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twi2.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0_opt_twr1.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_text_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_math_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_lib_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_roundsat.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/apn_fft_mult_can.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/apn_fft_mult_cpx_1825.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/apn_fft_mult_cpx.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_top.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/hyper_opt_OFF_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_dual_port_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_dual_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_mult_add.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/altera_fft_single_port_rom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_fft_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/hyper_pipeline_interface.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/counter_module.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_lib_pkg.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_bit_reverse_addr_control.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_bit_reverse_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_bit_reverse_reverse_carry_adder.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_adder_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_addsub.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_bfi.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_bfii.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_bf_control.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma_adder_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma_bfi_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_cma_fp.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_core.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_counter.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_delay.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_enable_control.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_stage.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_stg_out_pipe.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_stg_pipe.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/auk_dspip_r22sdf_twrom.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/Del/OneDrive/fpga/altera/Spectrum/myfft/synthesis/submodules/myfft_fft_ii_0.sv"
+       type="SYSTEM_VERILOG"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/17.1/ip/altera/dsp/altera_fft_ii/altera_fft_ii_hw.tcl" />
+   <file
+       path="C:/intelFPGA_lite/17.1/ip/altera/dsp/altera_fft_ii/fft_helper.jar" />
+   <file
+       path="C:/intelFPGA_lite/17.1/quartus/sopc_builder/model/lib/com.altera.entityinterfaces.jar" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="myfft" as="fft_ii_0" />
+  <messages>
+   <message level="Debug" culprit="myfft">queue size: 0 starting:altera_fft_ii "submodules/myfft_fft_ii_0"</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr3.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi1.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr4.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twi2.hex</message>
+   <message level="Info" culprit="fft_ii_0">--- add file: myfft_fft_ii_0_opt_twr1.hex</message>
+   <message level="Info" culprit="fft_ii_0"><![CDATA["<b>myfft</b>" instantiated <b>altera_fft_ii</b> "<b>fft_ii_0</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

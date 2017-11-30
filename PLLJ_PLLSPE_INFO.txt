@@ -1,0 +1,5 @@
+PLL_Name	DE2_115_SOPC:DE2_115_SOPC_inst|DE2_115_SOPC_pll:pll|DE2_115_SOPC_pll_altpll_ktn2:sd1|pll7
+PLLJITTER	35
+PLLSPEmax	84
+PLLSPEmin	-53
+

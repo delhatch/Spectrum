@@ -1,0 +1,20 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Del\OneDrive\fpga\altera\Spectrum\myfft.qsys --synthesis=VERILOG --output-directory=C:\Users\Del\OneDrive\fpga\altera\Spectrum\myfft\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Spectrum/myfft.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: myfft.fft_ii_0: Radix-2 digit reverse implied
+Info: myfft: Generating myfft "myfft" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: myfft_fft_ii_0_opt_twr2.hex
+Info: fft_ii_0: --- add file: myfft_fft_ii_0_opt_twi1.hex
+Info: fft_ii_0: --- add file: myfft_fft_ii_0_opt_twi2.hex
+Info: fft_ii_0: --- add file: myfft_fft_ii_0_opt_twr1.hex
+Info: fft_ii_0: "myfft" instantiated altera_fft_ii "fft_ii_0"
+Info: myfft: Done "myfft" with 2 modules, 46 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
