@@ -2,7 +2,7 @@
 
 A real-time analyzer (RTA) or spectrum analyzer converts a time-domain signal into a frequency-domain signal. In other words, it makes visible the amount of energy in the signal as a function of frequency.
 
-![screenshot](https://github.com/delhatch/Spectrum/blob/master/A_Example_video_music_short.mp4)
+![Link_to_video](https://github.com/delhatch/Spectrum/blob/master/A_Example_video_music_short.mp4)
 
 This project uses the Cyclone IV FPGA used in the DE2-115 evaluation board to:
 
