@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.1"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "none",
+		"error_message" : "Access Violation at 0X000007FEEFEAA4B6",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7feefeaa4b5: CCL_FIO + 0xa4b5 (?fio_display_path_too_long_assert_message@@YAXPEBD@Z + 0x85)\n\t0x7feefeab735: CCL_FIO + 0xb735 (?fullpath@FIO_PATH@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ + 0x45)\n\t0x7feb735bae6: pgm_pgme + 0x3bae6 (?engage_ocpp_mode@PGME_PROGRAMMER@@QEAA_NPEAV?$vector@PEAVPGM_CHAIN_ELEMENT@@V?$allocator@PEAVPGM_CHAIN_ELEMENT@@@std@@@std@@@Z + 0x8d6)\n\t 0x519895b7: QtCore4 + 0x295b7 (?start@QThread@@QEAAXW4Priority@1@@Z + 0x427)\n\t0x7fef02f4f7e: MSVCR120 + 0x24f7e (_beginthreadex + 0x106)\n\t0x7fef02f5125: MSVCR120 + 0x25125 (_endthreadex + 0x191)\n\t 0x779359cc: kernel32 + 0x159cc (BaseThreadInitThunk + 0xc)\n\t 0x77a6a560: ntdll + 0x2a560 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "17.1.0",
+		"build" : "590",
+		"edition" : "Lite Edition"
+	}
+}

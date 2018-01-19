@@ -1,0 +1,38 @@
+
+To generate S functions 
+
+On win32:
+Compile systemc library (no debug)  Note: it is necessary to set the compiler to use a multi-threaded DLL runtime library (flag /MD rather than /ML which is the default) when building SystemC.lib. Otherwise we are getting linking errors since SMEX fucntions are Multithreaded DLLs. To modify this compiler flag in Visual Studio, open the SystemC project configuration, then select the Code Generation tab under C/C++ and then modify the Runtime Library parameter
+
+mex -v -IC:\systemc-2.1.v1\include  -L<systemcLibrary path> fft.cpp util.cpp fpCompiler.cpp expression.cpp -DMEX_COMPILE -lsystemc
+mex -v  -IC:\systemc-2.1.v1\include  -L./ fft.cpp util.cpp fpCompiler.cpp expression.cpp -DMEX_COMPILE -lsystemc -output SVSfftmodel
+
+Note - a pre-compiled version for windows has been stored on the w:\ drive. As a result, we can use the following command: 
+
+>> mex -v -IW:\dspIP\tools\systemc-2.1.v1\include -LW:\dspIP\tools\systemc-2.1.v1\msvc71\SystemC\Release fft.cpp util.cpp fpCompiler.cpp expression.cpp -DMEX_COMPILE -lsystemc -output filename
+
+
+On linux 
+requires systemc
+mex -v  -I/tools/systemc/2.1.v1/include  -L./ -L/tools/systemc/2.1.v1/lib-linux fft.cpp util.cpp fpCompiler.cpp expression.cpp -Di386 -DMEX_COMPILE -lsystemc -output SVSfftmodel
+make
+
+To generate exes
+requires systemc and quartus(7.1)
+make -f Makefile.osci
+
+To compile on 64-bit machine
+1. compile systemc libraries using the following set of commands
+   > ../configure
+   modify makefile to add -fPIC to EXTRA_CXXFLAGS (required by matlab)
+  > gmake pthreads
+  > gmake install
+  > gmake pthreads_check
+
+2. Install gcc 4.0.0+ (required by matlab)
+
+ensure matlab is using gcc 4.0.0 
+
+3. mex -v  -I./systemc-2.2.05jun06_beta/include  -L./ -L./systemc-2.2.05jun06_beta/lib-linux64 util.cpp fft.cpp -Di386 -DMEX_COMPILE -DSC_INCLUDE_FX  -lsystemc -output SVSfftmodel
+
+then you have your file!

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/myfft_fft_ii_0_opt_twi1.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/myfft_fft_ii_0_opt_twr1.hex"
+   type="HEX"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/auk_dspip_text_pkg.vhd"
+   type="VHDL"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/auk_dspip_math_pkg.vhd"
+   type="VHDL"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/auk_dspip_lib_pkg.vhd"
+   type="VHDL"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_avalon_streaming_block_sink.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_avalon_streaming_block_sink.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_avalon_streaming_block_source.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_avalon_streaming_block_source.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/auk_dspip_roundsat.vhd"
+   type="VHDL"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/mentor/apn_fft_mult_can.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/apn_fft_mult_can.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/apn_fft_mult_cpx_1825.v"
+   type="VERILOG_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/apn_fft_mult_cpx_1825.v"
+   type="VERILOG_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/apn_fft_mult_cpx.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/apn_fft_mult_cpx.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/auk_dspip_r22sdf_top.ocp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/mentor/hyper_opt_OFF_pkg.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/hyper_opt_OFF_pkg.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/altera_fft_dual_port_ram.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/altera_fft_dual_port_ram.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/altera_fft_dual_port_rom.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/altera_fft_dual_port_rom.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/altera_fft_mult_add.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/altera_fft_mult_add.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/altera_fft_single_port_rom.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/altera_fft_single_port_rom.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_fft_pkg.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_fft_pkg.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/hyper_pipeline_interface.v"
+   type="VERILOG_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/hyper_pipeline_interface.v"
+   type="VERILOG_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/counter_module.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/counter_module.sv"
+   type="SYSTEM_VERILOG_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_lib_pkg.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_lib_pkg.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_bit_reverse_addr_control.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_bit_reverse_addr_control.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_bit_reverse_core.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_bit_reverse_core.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_bit_reverse_reverse_carry_adder.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_bit_reverse_reverse_carry_adder.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_adder_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_adder_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_addsub.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_addsub.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_bfi.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_bfi.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_bfii.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_bfii.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_bf_control.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_bf_control.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_cma.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_cma.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_cma_adder_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_cma_adder_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_cma_bfi_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_cma_bfi_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_cma_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_cma_fp.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_core.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_core.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_counter.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_counter.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_delay.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_delay.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_enable_control.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_enable_control.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_stage.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_stage.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_stg_out_pipe.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_stg_out_pipe.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_stg_pipe.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_stg_pipe.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_top.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_top.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/mentor/auk_dspip_r22sdf_twrom.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/auk_dspip_r22sdf_twrom.vhd"
+   type="VHDL_ENCRYPT"
+   library="fft_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/myfft_fft_ii_0.sv"
+   type="SYSTEM_VERILOG"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/How_To_Build.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/SVSfftmodel.mexglx"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/SVSfftmodel.mexw32"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/expression.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/expression.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/fft.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/fft.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/fpCompiler.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/fpCompiler.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/model_c_wrapper.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/util.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mr42/util.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/Sfftmodel.c"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/Sfftmodel.mexa64"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/Sfftmodel.mexglx"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/Sfftmodel.mexw32"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/imag_input.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/model.c"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/model_c_wrapper.c"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/real_input.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/run_c_wrapper.sh"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/run_model_c.sh"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/old_arch/tbcmex.m"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/SVSfftmodel.mexa64"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/SVSfftmodel.mexglx"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/SVSfftmodel.mexw32"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/blksize_report.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/create_static_library.sh"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/expected_imag_out.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/expected_real_out.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/expression.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/expression.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/fft.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/fft.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/fft_model.m"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/fft_tb.m"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/fpCompiler.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/fpCompiler.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/how_to_compile.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/imag_input.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/main.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/model.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/model_c_wrapper.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/readme.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/real_input.txt"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/sink.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/sink.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/source.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/source.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/system.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/system.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/util.cpp"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file
+   path="simulation/submodules/c_model/r22sdf/util.h"
+   type="OTHER"
+   library="fft_ii_0" />
+ <file path="simulation/myfft.v" type="VERILOG" />
+ <topLevel name="myfft" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

@@ -1,0 +1,13 @@
+Under Linux you can compile the C model for regtests using:
+
+./compile_vsfpfft.pl /tools/systemc/2.2.0/
+
+in this directory.
+
+To create MATLAB mex functions you can run:
+
+ mex -v -DMEX_COMPILE -I$ACDS_SRC_ROOT/ip/infrastructure/extlibs/systemc/2.2.0/ -L$ACDS_SRC_ROOT/ip/infrastructure/extlibs/systemc/2.2.0/lib64 expression.cpp fft.cpp fpCompiler.cpp util.cpp -lsystemc -output SVSfftmodel
+
+(you must sync that directory and have the matlab resource which you can get through qshell --dsp, and on windows you will have to replace $ACDS_SRC_ROOT with the correct path)
+
+

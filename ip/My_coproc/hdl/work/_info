@@ -1,0 +1,39 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Administrator\OneDrive\fpga\altera\chapter8\section1
+vEngine
+I2>:<L1M2gfEEHnkBc];VF2
+VHI[7YM72eL[@e07LMd0Ek2
+Z0 dC:\Users\Administrator\OneDrive\fpga\altera\Mandel_coproc\ip\My_coproc\hdl
+w1509728847
+8C:/Users/Administrator/OneDrive/fpga/altera/Mandel_coproc/ip/My_coproc/hdl/Engine.v
+FC:/Users/Administrator/OneDrive/fpga/altera/Mandel_coproc/ip/My_coproc/hdl/Engine.v
+L0 1
+Z1 OV;L;6.5e;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+n@engine
+!s100 80j`amoV3>DBbFQ:goG5S2
+!s85 0
+!s101 -O0
+vEngine_tb
+!s100 _IBJdQk3AdK>SbF65[loZ2
+I<H^E_lf@hIYzz96Fn0JVT2
+VaYgDYlnNo`1@MggD?[78J3
+Z4 dC:\Users\Administrator\OneDrive\fpga\altera\Mandel_coproc\ip\My_coproc\hdl
+w1509732369
+8C:/Users/Administrator/OneDrive/fpga/altera/Mandel_coproc/ip/My_coproc/hdl/Engine_tb.v
+FC:/Users/Administrator/OneDrive/fpga/altera/Mandel_coproc/ip/My_coproc/hdl/Engine_tb.v
+L0 2
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+n@engine_tb

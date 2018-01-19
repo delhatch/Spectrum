@@ -1,0 +1,22 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Administrator\OneDrive\fpga\altera\Mandel_engine_only\simulation
+vEngine
+!s100 7bNNeTGUm6o[V9gC0R9C70
+I1Ng_VPnfHh`0oOF]f5KO=1
+VHI[7YM72eL[@e07LMd0Ek2
+dC:\Users\Administrator\OneDrive\fpga\altera\Mandel_coproc\ip\My_coproc
+w1510005828
+8C:/Users/Administrator/OneDrive/fpga/altera/Mandel_coproc/ip/My_coproc/hdl/Engine.v
+FC:/Users/Administrator/OneDrive/fpga/altera/Mandel_coproc/ip/My_coproc/hdl/Engine.v
+L0 5
+OV;L;6.5e;42
+r1
+!s85 0
+31
+!s101 -O0
+!s102 -nocovercells
+o-work work -nocovercells -O0
+n@engine
