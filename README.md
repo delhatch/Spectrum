@@ -4,6 +4,8 @@ A real-time analyzer (RTA) or spectrum analyzer converts a time-domain signal in
 
 ![Link_to_video](https://github.com/delhatch/Spectrum/blob/master/A_Example_video_music_short.mp4)
 
+![Image](https://github.com/delhatch/Spectrum/blob/master/screenshot.JPG)
+
 This project uses the Cyclone IV FPGA used in the DE2-115 evaluation board to:
 
 a) configure and interface to the audio codec
