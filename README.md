@@ -1,6 +1,6 @@
 # SpectrumAnalyzer
 
-This design implements an audio real-time analyzer (RTA), or spectrum analyzer, that converts the audio time-domain signal into a frequency-domain signal. It then displays the spectrum as a series of bars, with the frequency axis in the log domain rather than linear. This is the best mode for analyzing/viewing audio waveforms.
+This design implements an audio real-time analyzer (RTA), or spectrum analyzer, that converts the audio time-domain signal into a frequency-domain signal. It then displays the spectrum as a series of bars, with the frequency axis in the log domain rather than linear. Log/log is the best mode for analyzing/viewing audio waveforms.
 
 ![Link_to_video](https://github.com/delhatch/Spectrum/blob/master/A_Example_video_music_short.mp4)
 
